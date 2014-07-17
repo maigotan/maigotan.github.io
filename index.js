@@ -8,8 +8,10 @@ function pageChange(page) {
 }
 
 window.onload = function () {
-	var start = 1, end = 7, width = 768, page = start;
+	/*
+    var start = 1, end = 7, width = 768, page = start;
 
+    
 	$("#comic").find("img")
 		.on("click", function (event) {
 			var posX = $(this).position().left;
@@ -45,7 +47,7 @@ window.onload = function () {
 				}
 			}
 	   })
-
-
+    */
+    
 }
 
