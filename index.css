@@ -22,11 +22,10 @@ a:hover {
 a:visited {
     color:#d46a6c;
 }
-
 body {
 	font: 300 20px 'Open Sans', sans-serif;
 	color: #444;
-	background: #ededed;
+	background: #EDEDED;
 }
 
 
@@ -45,7 +44,7 @@ body {
 
 /* Header */
 #header {
-    height:460px;
+    height:400px;
     background:#000;
 }
 #logo {
@@ -55,31 +54,43 @@ body {
     text-align:center;
 }
 .mo {
-    color:#DEDEDE;
+    color:#EDEDED;
     margin:0 auto;
-    width:800px;
-    top:10px;
-    position:relative;
+    width:200px;
+    margin-top:50px;
     text-align:center;
 }
 #social {
-    margin:0 auto;
-    margin-top:15px;
-    margin-bottom:15px;
-    width:65px;
-    float:center;
+    width:132px;
+    position:absolute;
+    bottom:20px;
+    left:42%;
 }
 .twitter {
     background:url('./pics/Twitter64w.png');
     background-repeat:no-repeat;
     height:64px;
     width:64px;
+    display:inline-block;
     transition: .15s ease-in-out;
    -moz-transition: .15s ease-in-out;
    -webkit-transition: .15s ease-out;
 }
 .twitter:hover {
     background:url('./pics/Twitter64b.png');
+}
+.MU {
+    background:url('./pics/MU64w.png');
+    background-repeat:no-repeat;
+    height:64px;
+    width:64px;
+    display:inline-block;
+    transition: .15s ease-in-out;
+   -moz-transition: .15s ease-in-out;
+   -webkit-transition: .15s ease-out;
+}
+.MU:hover {
+    background:url('./pics/MU64b.png');
 }
 
 
@@ -98,50 +109,57 @@ body {
 .release {
     max-width:1280px;
     min-width:1000px;
-    height:800px;
+    height:830px;
     margin:0 auto;
-    margin-top:80px;
-    margin-bottom:140px;
+    padding-top:80px;
+    padding-bottom:140px;
     position:relative;
 }
 .releaseimg {
     position:absolute;
     max-width:100%;
     height:auto;
-    z-index:-1;
+    overflow:hidden;
 }
-.haganai {
-    bottom:-140px;
+.haganai img {
+    bottom:0;
     right:10px;
+}
+.mechanical img {
+    right:0;
 }
 .release h1 {
     font:300 50px 'Open Sans', sans-serif;
-    margin-bottom:80px;
 }
 .release h2 {
     position:absolute;
-    font:800 italic 50px 'Open Sans', sans-serif;
+    font:300 italic 35px 'Open Sans', sans-serif;
     left:60px;
+    text-align:left;
+    bottom:750px;
+    color:#555;
 }
 
 .release h3 {
-    font:300 italic 1.3em 'Open Sans', sans-serif;
+    font:800 italic 30px 'Open Sans', sans-serif;
     position:absolute;
-    top:210px;
+    bottom:725px;
     left:60px;
+    color:#666;
 }
 .release h4 {
-    font:300 1.0em 'Open Sans', sans-serif;
+    font:300 1em 'Open Sans', sans-serif;
     position:absolute;
-    top:255px;
+    bottom:683px;
     left:60px;
 }
 .release p {
-    width:560px;
+    width:40%;
     text-align:left;
     position:absolute;
     left:60px;
-    top:300px;
+    top:395px;
+    color:#888;
 }
 
 
@@ -197,7 +215,7 @@ body {
 }
 #project h4 {
     text-align:left;
-    font-size: 0.7em;
+    font-size: 15px;
     position:absolute;
     bottom:0px;
     padding:0 0 0px 0px;
@@ -205,13 +223,13 @@ body {
     width:88%;
 }
 #project h2 {
-    font: 300  1.3em 'Open Sans';
+    font: 300 25px 'Open Sans';
     width:92%;
     margin:20px 0 0 10px;
     position:absolute;
 }
 #project h3 {
-    font:300 italic 0.6em 'Open Sans';
+    font:300 italic 14px 'Open Sans';
     width:92%;
     margin:150px 0 20px 10px;
     position:absolute;
@@ -222,9 +240,8 @@ body {
 /* Comment Section */
 #commentcontainer {
     height:auto;
-    background:#DEDEDE;
+    background:#EDEDED;
     padding:100px 0 170px 0;
-    
 }
 #comment {
     margin:0 auto;
@@ -242,17 +259,15 @@ body {
 #footercontainer {
     height:auto;
     background:#000;
-    color:#DEDEDE;
-    padding:40px 0 60px 0;
+    color:#EDEDED;
 }
 #footer {
     max-width:1280px;
     min-width:800px;
-    height:550px;
+    height:600px;
     margin:0 auto;
-    margin-top:10px;
-    margin-bottom:60px;
-    font:300 0.85em 'Open Sans';
+    padding-top:60px;
+    font:300 16px 'Open Sans';
     position:relative;
 }
 #left {
@@ -280,9 +295,17 @@ body {
 #bottom {
     position:absolute;
     bottom:0;
-    font: 0.7em 'Open Sans';
-    left:50%;
+    font: 300 italic 16px 'Open Sans';
+    left:41%;
 }
 #footer p {
     padding-bottom:20px;
 }
+
+
+#social a:link {
+    opacity:1;
+    border-bottom:none;
+}
+
+
