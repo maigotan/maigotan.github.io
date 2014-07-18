@@ -1,4 +1,4 @@
-maigo
+Maigo
 =====
 
-maigo's site
+Maigo's site.
