@@ -27,7 +27,12 @@ body {
 	color: #444;
 	background: #EDEDED;
 }
-
+em {
+    font-style:italic;
+}
+strong {
+    font-weight: 800;
+}
 
 
 /* Common effects */
@@ -37,7 +42,7 @@ body {
    -webkit-transition: opacity .25s ease-out;
 }
 .smallOpenSans {
-    font: 300 italic 16px 'Open Sans', sans-serif;
+    font: 300 16px 'Open Sans', sans-serif;
 }
 
 
@@ -63,8 +68,8 @@ body {
 #social {
     width:135px;
     position:absolute;
-    bottom:20px;
-    left:42%;
+    bottom:245px;
+    right:60px;
 }
 .twitter {
     background:url('./pics/Twitter64w.png');
@@ -100,6 +105,7 @@ body {
     width:100%;
     margin:0 auto;
     text-align:center;
+    padding-top:80px;
 }
 .releasecontainer .imgcontainer {
     margin:0 auto;
@@ -109,58 +115,64 @@ body {
 .release {
     max-width:1280px;
     min-width:1000px;
-    height:830px;
     margin:0 auto;
     padding-top:80px;
     padding-bottom:140px;
     position:relative;
 }
-.releaseimg {
-    position:absolute;
-    max-width:100%;
-    height:auto;
-    overflow:hidden;
-}
-.haganai img {
-    bottom:0;
-    right:10px;
-}
-.mechanical img {
-    right:0;
-}
-.release h1 {
+.releasecontainer h1 {
     font:300 50px 'Open Sans', sans-serif;
 }
 .release h2 {
-    position:absolute;
-    font:300 italic 35px 'Open Sans', sans-serif;
-    left:60px;
-    text-align:left;
-    bottom:750px;
+    font:300 italic 160% 'Open Sans', sans-serif ;
     color:#555;
+    margin-bottom:-15px;
 }
-
-.release h3 {
+.release h3{
     font:800 italic 30px 'Open Sans', sans-serif;
-    position:absolute;
-    bottom:725px;
-    left:60px;
     color:#666;
 }
 .release h4 {
     font:300 1em 'Open Sans', sans-serif;
-    position:absolute;
-    bottom:683px;
-    left:60px;
+    margin-top:20px;
+    margin-bottom:30px;
 }
 .release p {
-    width:40%;
-    text-align:left;
-    position:absolute;
-    left:60px;
-    top:395px;
     color:#888;
 }
+.haganai {
+    height:500px;
+}
+.mechanical {
+    height:830px;
+}
+.mechanical .relimg {
+    position:absolute;
+    height:auto;
+    left:-120px;
+}
+.mechanical .reltext {
+    position:absolute;
+    right:60px;
+    text-align:left;
+    width:46%;
+    top:300px;
+}
+.haganai .relimg {
+    position:absolute;
+    height:auto;
+    right:0px;
+    bottom:-6px;    
+}
+.haganai .reltext {
+    position:absolute;
+    left:60px;
+    text-align:left;
+    width:50%;
+    min-width:49%;
+}
+
+
 
 
 
@@ -181,7 +193,7 @@ body {
     border:solid 10px rgba(121, 132, 136, 0.7);
 }
 #project h1 {
-    font: 800 italic 4.0em 'Open Sans', serif;
+    font: 300 italic 4.0em 'Open Sans', serif;
     color: rgb(147, 159, 162);
     margin-bottom:40px;
     padding-bottom:10px;
@@ -234,6 +246,9 @@ body {
     margin:150px 0 20px 10px;
     position:absolute;
 }
+#project span {
+    font: 300 italic 1px 'Open Sans';
+}
 
 
 
@@ -249,7 +264,7 @@ body {
     text-align:center;
 }
 #comment h1 {
-    font: 3em 'Open Sans', sans-serif;
+    font: 50px 'Open Sans', sans-serif;
     margin-bottom:60px;
 }
 
@@ -264,28 +279,45 @@ body {
 #footer {
     max-width:1280px;
     min-width:800px;
-    height:600px;
+    height:500px;
     margin:0 auto;
-    padding-top:60px;
+    padding-top:50px;
     font:300 16px 'Open Sans';
     position:relative;
+}
+#right a {
+    border-bottom:none;
+}
+#right a:hover {
+    border-bottom:none;
+    opacity:1;
+}
+#right a span {
+    position:absolute;
+    right:0;
+    border-bottom:none;
+    display:none;
+}
+#right a:hover span {
+    border-bottom:none;
+    display:block;
 }
 #left {
     width:26%;
     position:absolute;
     left:60px;
 }
-
 #middle {
     width:26%;
     position:absolute;
-    left:36%;
+    left:38%;
 }
-
 #right {
     width:26%;
     position:absolute;
     right:60px;
+    text-align:center;
+    padding-top:10px;
 }
 #footer h1 {
     font:300 italic 35px 'Open Sans';
@@ -301,11 +333,31 @@ body {
 #footer p {
     padding-bottom:20px;
 }
-
-
 #social a:link {
     opacity:1;
     border-bottom:none;
 }
+#footertext {
+    width:100%;
+    position:absolute;
+    top:460px;
+    font:300 14px 'Open Sans';
+    text-align:center;
+}
+#right img {
+    width:30%;
+    height:auto;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition: .25s ease-out;
+}
 
-
+#right img:hover{
+    width:60%;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
