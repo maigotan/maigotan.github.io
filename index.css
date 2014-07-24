@@ -3,9 +3,6 @@ Cheat sheet:
 font: italic small-caps bold 34px/100px "Times New Roman", Times, serif;
 box-shadow: 1px 1px 1px #333;
 */
-/*
-Whole numbers for em for googlefonts are the best looking.
-*/
 
 
 /* General Section */
@@ -42,60 +39,31 @@ strong {
    -webkit-transition: opacity .25s ease-out;
 }
 .smallOpenSans {
-    font: 300 16px 'Open Sans', sans-serif;
+    font: 300 24px 'Open Sans', sans-serif;
 }
 
 
 
 /* Header */
 #header {
-    height:400px;
-    background:#000;
+    height:100vh;
+    background:#181818;
 }
 #logo {
     /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
     margin: 0 auto;
-    padding-top: 80px;
     text-align:center;
+    position:absolute;
+    width:100%;
+    top:38%;
 }
 .mo {
     color:#EDEDED;
     margin:0 auto;
-    width:200px;
-    margin-top:50px;
     text-align:center;
-}
-#social {
-    width:135px;
     position:absolute;
-    bottom:245px;
-    right:60px;
-}
-.twitter {
-    background:url('./pics/Twitter64w.png');
-    background-repeat:no-repeat;
-    height:64px;
-    width:64px;
-    display:inline-block;
-    transition: .15s ease-in-out;
-   -moz-transition: .15s ease-in-out;
-   -webkit-transition: .15s ease-out;
-}
-.twitter:hover {
-    background:url('./pics/Twitter64b.png');
-}
-.MU {
-    background:url('./pics/MU64w.png');
-    background-repeat:no-repeat;
-    height:64px;
-    width:64px;
-    display:inline-block;
-    transition: .15s ease-in-out;
-   -moz-transition: .15s ease-in-out;
-   -webkit-transition: .15s ease-out;
-}
-.MU:hover {
-    background:url('./pics/MU64b.png');
+    width:100%;
+    top:90%;
 }
 
 
@@ -105,7 +73,7 @@ strong {
     width:100%;
     margin:0 auto;
     text-align:center;
-    padding-top:80px;
+    padding-top:600px;
 }
 .releasecontainer .imgcontainer {
     margin:0 auto;
@@ -116,12 +84,12 @@ strong {
     max-width:1280px;
     min-width:1000px;
     margin:0 auto;
-    padding-top:80px;
-    padding-bottom:140px;
     position:relative;
+    margin-top:700px;
 }
 .releasecontainer h1 {
     font:300 50px 'Open Sans', sans-serif;
+    margin-bottom:600px;
 }
 .release h2 {
     font:300 italic 160% 'Open Sans', sans-serif ;
@@ -140,11 +108,9 @@ strong {
 .release p {
     color:#888;
 }
-.haganai {
-    height:500px;
-}
+
 .mechanical {
-    height:830px;
+    height:880px;
 }
 .mechanical .relimg {
     position:absolute;
@@ -156,12 +122,15 @@ strong {
     right:60px;
     text-align:left;
     width:46%;
-    top:300px;
+    top:230px;
+}
+.haganai {
+    height:620px;
 }
 .haganai .relimg {
     position:absolute;
     height:auto;
-    right:0px;
+    right:60px;
     bottom:-6px;    
 }
 .haganai .reltext {
@@ -169,18 +138,43 @@ strong {
     left:60px;
     text-align:left;
     width:50%;
-    min-width:49%;
 }
-
-
-
-
+.taiyou {
+    height:590px;
+}
+.taiyou .relimg {
+    position:absolute;
+    height:auto;
+    right:60px;
+    top:40px;
+}
+.taiyou .reltext {
+    position:absolute;
+    left:60px;
+    text-align:left;
+    width:46%;
+    top:100px;
+}
+.natsu {
+    height:700px;
+}
+.natsu .relimg {
+    height:auto;
+}
+.natsu .reltext {
+    text-align:center;
+    width:46%;
+    margin:0 auto;
+}
+.natsu p {
+    text-align:left;
+}
 
 /* Project Section */
 #projectcontainer {
     height:auto;
     background:#838C91;
-    padding:100px 0 200px 0;
+    padding:600px 0 960px 0;
 }
 #project {
     margin:0 auto;
@@ -188,23 +182,25 @@ strong {
     text-align:center;
 }
 #project img {
-    height:300px;
-    width:220px;
+    height:448px;
+    width:320px;
     border:solid 10px rgba(121, 132, 136, 0.7);
 }
 #project h1 {
     font: 300 italic 4.0em 'Open Sans', serif;
     color: rgb(147, 159, 162);
-    margin-bottom:40px;
-    padding-bottom:10px;
-    border-bottom: dashed 1px;
+    border: dashed 2px;
+    width:500px;
+    margin:0 auto;
+    margin-bottom:740px;
+    padding-bottom:24px;
 }
 #project .projoverlay {
+    height:468px;
+    width:340px;
     opacity:0;
     position:absolute;
     top:0px;
-    height:inherit;
-    width:inherit;
     background:#838C91;
     overflow:hidden;
     transition: opacity .25s ease-in-out;
@@ -221,30 +217,28 @@ strong {
 #project .imgcontainer {
     display:inline-block;
     position:relative;
-    width:240px;
-    height:320px;
-    margin:20px 2px;
+    height:468px;
+    width:340px;
+    margin:0 10px 100px 10px;
 }
 #project h4 {
     text-align:left;
     font-size: 15px;
     position:absolute;
-    bottom:0px;
-    padding:0 0 0px 0px;
-    margin:0 0 20px 15px;
+    left:20px;
+    bottom:30px;
     width:88%;
 }
 #project h2 {
-    font: 300 25px 'Open Sans';
-    width:92%;
-    margin:20px 0 0 10px;
-    position:absolute;
+    font:300 38px 'Open Sans';
+    width:300px;
+    margin:0 auto;
+    margin-top:20px;
+    text-align:center;
 }
 #project h3 {
     font:300 italic 14px 'Open Sans';
-    width:92%;
-    margin:150px 0 20px 10px;
-    position:absolute;
+    margin:0 auto;
 }
 #project span {
     font: 300 italic 1px 'Open Sans';
@@ -256,7 +250,7 @@ strong {
 #commentcontainer {
     height:auto;
     background:#EDEDED;
-    padding:100px 0 170px 0;
+    padding:500px 0 670px 0;
 }
 #comment {
     margin:0 auto;
@@ -272,8 +266,7 @@ strong {
 
 /* Footer Section */
 #footercontainer {
-    height:auto;
-    background:#000;
+    background:#181818;
     color:#EDEDED;
 }
 #footer {
@@ -310,14 +303,14 @@ strong {
 #middle {
     width:26%;
     position:absolute;
-    left:38%;
+    left:39%;
 }
 #right {
     width:26%;
     position:absolute;
     right:60px;
     text-align:center;
-    padding-top:10px;
+    padding-top:3px;
 }
 #footer h1 {
     font:300 italic 35px 'Open Sans';
@@ -360,4 +353,20 @@ strong {
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+
+.links {
+    position:absolute;
+    right:20px;
+    top:10px;
+    font-size:18px;
+}
+
+.latestrel {
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    position:absolute;
+    top:60%;
 }
