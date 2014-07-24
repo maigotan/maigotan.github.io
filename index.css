@@ -365,8 +365,9 @@ strong {
 
 .latestrel {
     margin:0 auto;
-    width:100%;
-    text-align:center;
+    text-align:left;
     position:absolute;
-    top:60%;
+    left:64%;
+    top:40%;
+    color:#444;
 }
