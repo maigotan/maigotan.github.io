@@ -256,7 +256,7 @@ strong {
 #commentcontainer {
     height:auto;
     background:#EDEDED;
-    padding:90px 0 90px 0;
+    padding:90px 0 110px 0;
 }
 #comment {
     margin:0 auto;
@@ -264,8 +264,8 @@ strong {
     text-align:center;
 }
 #comment h1 {
-    font: 50px 'Open Sans', sans-serif;
-    margin-bottom:100px;
+    font: 80px 'Open Sans', sans-serif;
+    margin-bottom:30px;
 }
 
 
@@ -320,7 +320,6 @@ strong {
 #footer h1 {
     font:300 italic 35px 'Open Sans';
     text-align:center;
-    margin-bottom:10px;
 }
 #bottom {
     position:absolute;
