@@ -1,0 +1,35 @@
+<div class="release natsu">
+    <div class="relimg">
+        <img src="./pics/natrel.png" />
+    </div>
+    <div class="reltext">
+        <h2>NATSU NO ZENJITSU</h2>
+        <h3>CHAPTER 45</h3>
+        <h4><a href="#">DOWNLOAD</a> <a href="#">READ ONLINE</a></h4>
+        <p> </p>
+    </div>
+</div>
+
+<div class="release taiyou">
+    <div class="relimg">
+        <img src="./pics/tairel.png" />
+    </div>
+    <div class="reltext">
+        <h2>TAIYOU NO IE</h2>
+        <h3>CHAPTER 45</h3>
+        <h4><a href="#">DOWNLOAD</a> <a href="#">READ ONLINE</a></h4>
+        <p> </p>
+    </div>
+</div>
+
+<div class="release mechanical">
+    <div class="relimg">
+        <img src="./pics/mecrel.png" />
+    </div>
+    <div class="reltext">
+        <h2>BOKU NI KOISURU MECHANICAL</h2>
+        <h3>CHAPTER 14</h3>
+        <h4><a href="#">DOWNLOAD</a> <a href="#">READ ONLINE</a></h4>
+        <p> </p>
+    </div>
+</div>
