@@ -33,3 +33,27 @@
         <p> </p>
     </div>
 </div>
+
+<div class="release gonensei">
+    <div class="relimg">
+        <img src="./pics/gonrel.png" />
+    </div>
+    <div class="reltext">
+        <h2>GONENSEI</h2>
+        <h3>CHAPTER 1</h3>
+        <h4><a href="#">DOWNLOAD</a> <a href="#">READ ONLINE</a></h4>
+        <p> </p>
+    </div>
+</div>
+
+<div class="release letra">
+    <div class="relimg">
+        <img src="./pics/tetrel.png" />
+    </div>
+    <div class="reltext">
+        <h2>TETSUGAKU LETRA</h2>
+        <h3>CHAPTER 13</h3>
+        <h4><a href="#">DOWNLOAD</a> <a href="#">READ ONLINE</a></h4>
+        <p> </p>
+    </div>
+</div>
