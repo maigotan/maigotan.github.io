@@ -299,9 +299,11 @@ hr {
     width:600px;
     text-align:center;
 }
-#comment h1 {
+#commentcontainer h1 {
     font: 300 80px 'Open Sans', sans-serif;
     margin-bottom:30px;
+    width:100%;
+    text-align:center;
 }
 
 
