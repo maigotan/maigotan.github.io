@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 	<channel>
-		<title>Maigo's Feed</title>
+		<title>Maigo's Release Feed</title>
 		<description>Coded manually. Because I'm a dumbass.</description>
 		<link>http://maigo.us</link>
 			<item>
@@ -11,7 +11,7 @@
 			</item>
 			<item>
 			<title>Gonensei Chapter 1</title>
-			<description>The sequel to Yonensei. Akio and Yoshino believed all there was left for them was to graduate. But life had different plans for them. Yoshino moves on while Akio stays behind, and something between them begins to change.The story of their youth continues.</description>
+			<description>The sequel to Yonensei. Akio and Yoshino believed all there was left for them was to graduate. But life had different plans for them. Yoshino moves on while Akio stays behind, and something between them begins to change. The story of their youth continues.</description>
 			<link>https://mega.co.nz/#!gJIEGTSD!NiWrEXD1ZCAzPR7evZfhC7vxWUjhQe32iAFyk7HW2s0</link>
 			</item>
 	</channel>
