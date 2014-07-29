@@ -103,57 +103,52 @@ del {
     padding:40px 0;
     position:relative;
 }
-.reltext h1 {
-    font:300 14px 'Open Sans', sans-serif;
-    color:#989898;
-    text-align:center;
-    padding-top:20px;
-}
-
-.release h2 {
+.release h1 {
     font:300 50px 'Open Sans', sans-serif;
     color:#383838;
-    margin-bottom:40px;
     line-height:46px;
 }
-.release h3 {
+.release h2 {
     font:800 30px 'Open Sans', sans-serif;
     color:#383838;
-    margin-top:40px;
+    margin-top:25px;
 }
-.release h4 {
-    font:300 1em 'Open Sans', sans-serif;
-    margin-bottom:20px;
+.reltext h3 {
+    font:300 14px 'Open Sans', sans-serif;
+    color:#989898;
+    padding-top:10px;
+    margin-bottom:40px;
 }
 .release p {
     color:#797979;
     margin-bottom:20px;
 }
-
+.relimg {
+    position:absolute;
+    height:auto;
+}
+.reltext {
+    position:absolute;
+    width:48%;
+}
 .mechanical {
     height:880px;
 }
 .mechanical .relimg {
-    position:absolute;
-    height:auto;
     left:-120px;
 }
 .mechanical .reltext {
-    position:absolute;
     right:60px;
-    width:46%;
     top:230px;
 }
 .haganai {
     height:715px;
 }
 .haganai .relimg {
-    height:auto;
 }
 .haganai .reltext {
     margin:0 auto;
     text-align:center;
-    width:50%;
     padding:20px;
 }
 .taiyou {
@@ -161,54 +156,40 @@ del {
     padding:40px 0;
 }
 .taiyou .relimg {
-    position:absolute;
-    height:auto;
     right:5%;
 }
 .taiyou .reltext {
-    position:absolute;
     left:60px;
-    width:46%;
     top:28%;
 }
 .natsu {
     height:700px;
 }
 .natsu .relimg {
-    height:auto;
 }
 .natsu .reltext {
     text-align:center;
-    width:46%;
     margin:0 auto;
 }
 .letra {
     height:720px;
 }
 .letra .relimg {
-    position:absolute;
-    height:auto;
-    right:5%;
+    right:0;
 }
 .letra .reltext {
-    position:absolute;
     left:5%;
-    top:27%;
-    width:45%;
+    top:30%;
 }
 .gonensei {
     height:650px;
 }
 .gonensei .relimg {
-    position:absolute;
-    height:auto;
-    left:15%;
+    left:10%;
 }
 .gonensei .reltext {
-    position:absolute;
     right:5%;
-    width:45%;
-    top:8%;
+    top:14%;
 }
 
 
