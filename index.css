@@ -33,7 +33,7 @@ strong {
 }
 hr {
     border: 0;
-    border-bottom: 1px dashed #ccc;
+    border-bottom:1px dashed #DEDEDE;
     width: 100%;
 }
 del {
@@ -107,17 +107,19 @@ del {
     font:300 50px 'Open Sans', sans-serif;
     color:#383838;
     line-height:46px;
+    margin-bottom:-5px;
 }
 .release h2 {
     font:800 30px 'Open Sans', sans-serif;
     color:#383838;
-    margin-top:25px;
+    margin-bottom:20px;
 }
 .reltext h3 {
     font:300 14px 'Open Sans', sans-serif;
-    color:#989898;
-    padding-top:10px;
-    margin-bottom:40px;
+    color:#BDBDBD;
+    margin-top:70px;
+    padding-top:7px;
+    border-top:1px dashed #DADADA;
 }
 .release p {
     color:#797979;
@@ -189,7 +191,7 @@ del {
 }
 .gonensei .reltext {
     right:5%;
-    top:14%;
+    top:15%;
 }
 
 
