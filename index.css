@@ -122,7 +122,7 @@ del {
     border-top:1px dashed #DADADA;
 }
 .release p {
-    color:#797979;
+    color:#787878;
     margin-bottom:20px;
 }
 .relimg {
@@ -208,7 +208,7 @@ del {
 /* Project Section */
 #projectcontainer {
     height:auto;
-    background:#838C91;
+    background:#68758b;
     padding-top:60px;
     padding-bottom:80px;
 }
@@ -220,32 +220,41 @@ del {
 #project img {
     height:420px;
     width:300px;
-    border:solid 10px rgba(121, 132, 136, 0.7);
+    box-shadow: 3px 3px 50px 0px #454a57;
+    margin-bottom:50px;
+    transition: .15s ease-in-out;
+   -moz-transition: .15s ease-in-out;
+   -webkit-transition: .15s ease-out;
+/*    border:solid 10px rgba(105, 116, 145, 0.6);*/
 }
 #project h1 {
-    font: 300 italic 80px 'Open Sans', serif;
-    color: rgb(147, 159, 162);
-    width:500px;
+    font-size:80px;
+    font-weight:300;
+    color: #96a3b7;
     padding-bottom:24px;
     margin:0 auto;
     margin-bottom:15px;
 }
 #project .projoverlay {
-    height:440px;
-    width:320px;
+    cursor:default;
+    color: #FEFEFE;
+    height:420px;
+    width:300px;
+    right:10px;
     opacity:0;
     position:absolute;
     top:0px;
-    background:#838C91;
+/*    background:#838C91;*/
     overflow:hidden;
-    transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-out;
-    font: 300 1.0em 'Open Sans', sans-serif;
-    color: #FFF;
+    transition: .15s ease-in-out;
+   -moz-transition: .15s ease-in-out;
+   -webkit-transition: .15s ease-out;
 }
 #project .imgcontainer:hover .projoverlay{
-    opacity:0.90;
+    opacity:1;
+}
+#project .imgcontainer:hover img {
+    opacity:0.2;
 }
 #project .imgcontainer:hover h2, h3, h4{
 }
@@ -254,29 +263,25 @@ del {
     position:relative;
     height:440px;
     width:320px;
-    margin:0 2px 30px 2px;
 }
 #project h4 {
-    text-align:left;
-    font-size: 17px;
-    position:absolute;
-    left:20px;
-    bottom:30px;
-    width:88%;
+    font-size:14px;
+    margin:0 auto;
+    width:90%;
 }
 #project h2 {
-    font:300 38px 'Open Sans';
-    width:300px;
-    margin:0 auto;
-    margin-top:20px;
-    text-align:center;
+    font-weight:300;
+    font-size:30px;
+    font-style:italic;
+    margin-top:45%;
+    line-height:30px;
+    margin-bottom:5px;
 }
 #project h3 {
-    font:300 italic 14px 'Open Sans';
-    margin:0 auto;
-}
-#project span {
-    font: 300 italic 1px 'Open Sans';
+    font-weight:300;
+    font-size:14px;
+    font-style:italic;
+    margin-bottom:30px;
 }
 
 
@@ -315,7 +320,8 @@ del {
     min-width:1000px;
     height:515px;
     margin:0 auto;
-    font:300 16px 'Open Sans';
+    font:400 16px 'Open Sans';
+    color:#afafaf;
     position:relative;
 }
 #right a {
