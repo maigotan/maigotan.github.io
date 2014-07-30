@@ -254,7 +254,7 @@ del {
     opacity:1;
 }
 #project .imgcontainer:hover img {
-    opacity:0.2;
+    opacity:0.1;
 }
 #project .imgcontainer:hover h2, h3, h4{
 }
