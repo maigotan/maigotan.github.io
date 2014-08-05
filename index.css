@@ -39,7 +39,10 @@ hr {
 del {
     text-decoration:line-through;
 }
-
+.jp {
+    border-bottom:1px dotted;
+    cursor:help;
+}
 
 
 /* Common effects */
@@ -140,14 +143,16 @@ del {
     top:230px;
 }
 .haganai {
-    height:715px;
+    height:990px;
 }
 .haganai .relimg {
+    width:100%;
+    text-align:center;
 }
 .haganai .reltext {
-    margin:0 auto;
     text-align:center;
-    padding:20px;
+    margin:0 auto;
+    margin-top:440px;
 }
 .taiyou {
     height:520px;
