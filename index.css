@@ -125,7 +125,6 @@ del {
     margin-bottom:20px;
 }
 .relimg {
-    position:absolute;
     height:auto;
 }
 .reltext {
@@ -135,6 +134,7 @@ del {
     height:880px;
 }
 .mechanical .relimg {
+    position:absolute;
     left:-120px;
 }
 .mechanical .reltext {
@@ -143,7 +143,7 @@ del {
     top:230px;
 }
 .haganai {
-    height:990px;
+    height:auto;
 }
 .haganai .relimg {
     width:100%;
@@ -152,13 +152,13 @@ del {
 .haganai .reltext {
     text-align:center;
     margin:0 auto;
-    margin-top:440px;
 }
 .taiyou {
     height:520px;
     padding:40px 0;
 }
 .taiyou .relimg {
+    position:absolute;
     right:5%;
 }
 .taiyou .reltext {
@@ -167,7 +167,7 @@ del {
     top:28%;
 }
 .natsu {
-    height:570px;
+    height:auto;
 }
 .natsu .relimg {
     width:100%;
@@ -176,12 +176,12 @@ del {
 .natsu .reltext {
     text-align:center;
     margin:0 auto;
-    margin-top:320px;
 }
 .letra {
     height:720px;
 }
 .letra .relimg {
+    position:absolute;
     right:0;
 }
 .letra .reltext {
@@ -193,6 +193,7 @@ del {
     height:620px;
 }
 .gonensei .relimg {
+    position:absolute;
     left:10%;
 }
 .gonensei .reltext {
@@ -204,6 +205,7 @@ del {
     height:540px;
 }
 .kekkon .relimg {
+    position:absolute;
     right:5%;
 }
 .kekkon .reltext {
