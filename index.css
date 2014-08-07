@@ -58,7 +58,7 @@ del {
 
 
 /* Header */
-#header {
+header {
     height:400px;
     background:#181818;
     position:relative;
@@ -76,7 +76,7 @@ del {
     text-align:center;
     position:absolute;
     width:100%;
-    bottom:14%;
+    bottom:12%;
 }
 .links {
     font-size:14px;
@@ -98,6 +98,7 @@ del {
 .release {
     max-width:1200px;
     min-width:1000px;
+    width:79%;
     margin:0 auto;
     padding:40px 0;
     position:relative;
@@ -199,7 +200,7 @@ del {
 .gonensei .reltext {
     position:absolute;
     right:8%;
-    top:15%;
+    top:20%;
 }
 .kekkon {
     height:540px;
@@ -224,17 +225,17 @@ del {
 }
 #project {
     margin:0 auto;
-    width:90%;
+    max-width:79%;
+    min-width:900px;
     text-align:center;
 }
 #project img {
     height:420px;
     width:300px;
     box-shadow: 2px 2px 30px 0px #454a57;
-    margin-bottom:50px;
-    transition: .20s ease-in-out;
-   -moz-transition: .20s ease-in-out;
-   -webkit-transition: .20s ease-out;
+    transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition: .25s ease-out;
 /*    border:solid 10px rgba(105, 116, 145, 0.6);*/
 }
 #project h1 {
@@ -246,19 +247,19 @@ del {
     margin-bottom:15px;
 }
 #project .projoverlay {
+    text-shadow: 0px 0px 6px rgb(101, 101, 101);
     cursor:default;
     color: #FEFEFE;
     height:420px;
     width:300px;
-    right:10px;
     opacity:0;
     position:absolute;
     top:0px;
 /*    background:#838C91;*/
     overflow:hidden;
-    transition: .15s ease-in-out;
-   -moz-transition: .15s ease-in-out;
-   -webkit-transition: .15s ease-out;
+    transition: .10s ease-in;
+   -moz-transition: .10s ease-in;
+   -webkit-transition: .10s ease-in;
 }
 #project .imgcontainer:hover .projoverlay{
     opacity:1;
@@ -271,8 +272,9 @@ del {
 #project .imgcontainer {
     display:inline-block;
     position:relative;
-    height:440px;
-    width:320px;
+    height:420px;
+    width:300px;
+    margin-bottom:60px;
 }
 #project h4 {
     font-size:14px;
@@ -324,50 +326,56 @@ del {
     background:#181818;
     color:#EDEDED;
     padding:35px 0;
+    position:relative;
 }
-#footer {
+footer {
+    width:79%;
     max-width:1200px;
     min-width:1000px;
-    height:515px;
+    height:490px;
     margin:0 auto;
     font:400 16px 'Open Sans';
     color:#afafaf;
     position:relative;
 }
-#right a {
+#buds a {
     border-bottom:none;
 }
-#right a:hover {
+#buds a:hover {
     border-bottom:none;
     opacity:1;
 }
-#right a span {
+#buds a span {
     position:absolute;
     right:0;
     border-bottom:none;
     display:none;
 }
-#right a:hover span {
+#buds a:hover span {
     border-bottom:none;
     display:block;
 }
 #left {
-    width:27%;
+    width:40%;
     position:absolute;
     left:40px;
 }
 #middle {
-    width:28%;
+    width:40%;
     position:absolute;
-    left:38%;
+    left:55%;
 }
-#right {
-    width:27%;
+#buds {
     position:absolute;
-    right:0px;
+    bottom:50px;
+    height:102px;
+    width:450px;
+    left:1%;
     text-align:center;
+    font-size:14px;
+    font-weight:300;
 }
-#footer h1 {
+footer h1 {
     font:300 italic 35px 'Open Sans';
     text-align:center;
 }
@@ -377,7 +385,7 @@ del {
     font: 300 italic 16px 'Open Sans';
     left:41%;
 }
-#footer p {
+footer p {
     margin-bottom:20px;
 }
 #social a:link {
@@ -385,14 +393,14 @@ del {
     border-bottom:none;
 }
 #footertext {
-    width:100%;
+    right:5%;
     position:absolute;
-    bottom:0;
+    bottom:30px;
     font:300 14px 'Open Sans';
-    text-align:center;
+    text-align:right;
 }
-#right img {
-    width:30%;
+#buds img {
+    width:50%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -401,9 +409,25 @@ del {
    -webkit-transition: .25s ease-out;
 }
 
-#right img:hover{
-    width:40%;
+#buds img:hover{
+    width:60%;
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+#nase {
+    position:absolute;
+    left:0;
+}
+
+#vexed {
+    position:absolute;
+    left:140px;
+}
+
+#footjump {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    bottom:-15px;
 }
