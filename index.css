@@ -303,9 +303,6 @@ header {
     background:#323232;
     padding:70px 0 90px 0;
 }
-#footercontainer p {
-    margin-bottom:20px;
-}
 footer {
     font:400 18px 'Open Sans';
     margin:0 auto;
@@ -314,6 +311,9 @@ footer {
     height:auto;
     position:relative;
     color:#AFAFAF;
+}
+footer p {
+    margin-bottom:20px;
 }
 #us {
     position:absolute;
@@ -329,8 +329,8 @@ footer {
 }
 #comment {
     width:48%;
-    margin-left:43%;
-    padding:20px;
+    margin-left:40%;
+    padding:20px 40px;
     background:#EDEDED;
 }
 #buds {
@@ -346,9 +346,7 @@ footer {
     font-size:50px;
     font-weight:300;
 }
-footer p {
-    margin-bottom:20px;
-}
+
 #buds img {
     width:50%;
     -webkit-filter: grayscale(100%);
