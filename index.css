@@ -98,7 +98,7 @@ header {
 .release {
     max-width:1200px;
     min-width:1000px;
-    width:79%;
+    width:100%;
     margin:0 auto;
     padding:40px 0;
     position:relative;
@@ -121,10 +121,7 @@ header {
     padding-top:7px;
     border-top:1px dashed #DADADA;
 }
-.release p {
-    color:#787878;
-    margin-bottom:20px;
-}
+
 .relimg {
     height:auto;
 }
@@ -225,7 +222,8 @@ header {
 }
 #project {
     margin:0 auto;
-    max-width:79%;
+    width:91%;
+    max-width:1280px;
     min-width:900px;
     text-align:center;
 }
@@ -298,45 +296,28 @@ header {
 
 
 
-/* Comment Section */
-#commentcontainer {
-    height:auto;
-    background:#EDEDED;
-    padding:70px 0 110px 0;
-}
-#commentcontainer h1 {
-    font: 300 50px 'Open Sans', sans-serif;
-    width:100%;
-    text-align:center;
-}
-#commentcontainer p {
-    text-align:center;
-    width:100%;
-    margin-bottom:30px;
-}
-#comment {
-    margin:0 auto;
-    width:600px;
-    text-align:center;
-}
-
-
 /* Footer Section */
 #footercontainer {
-    background:#181818;
-    color:#EDEDED;
-    padding:35px 0;
-    position:relative;
+    height:auto;
+    background:#131313;
+    padding:70px 0 90px 0;
+}
+#footercontainer p {
+    margin-bottom:20px;
 }
 footer {
-    width:79%;
+    font:400 18px 'Open Sans';
+    margin:0 auto;
     max-width:1200px;
     min-width:1000px;
-    height:490px;
-    margin:0 auto;
-    font:400 16px 'Open Sans';
-    color:#afafaf;
+    height:auto;
     position:relative;
+    color:#AFAFAF;
+}
+#us {
+    position:absolute;
+    left:5%;
+    width:30%;
 }
 #buds a {
     border-bottom:none;
@@ -345,59 +326,25 @@ footer {
     border-bottom:none;
     opacity:1;
 }
-#buds a span {
-    position:absolute;
-    right:0;
-    border-bottom:none;
-    display:none;
-}
-#buds a:hover span {
-    border-bottom:none;
-    display:block;
-}
-#left {
-    width:40%;
-    position:absolute;
-    left:40px;
-}
-#middle {
-    width:40%;
-    position:absolute;
-    left:55%;
+#comment {
+    width:50%;
+    margin-left:45%;
 }
 #buds {
-    position:absolute;
-    bottom:50px;
-    height:102px;
-    width:450px;
-    left:1%;
+    width:40%;
+    height:100px;
+    left:5%;
     text-align:center;
     font-size:14px;
     font-weight:300;
+    top:630px;
 }
-footer h1 {
-    font:300 italic 35px 'Open Sans';
-    text-align:center;
-}
-#bottom {
-    position:absolute;
-    bottom:0;
-    font: 300 italic 16px 'Open Sans';
-    left:41%;
+#us h1 {
+    font-size:50px;
+    font-weight:300;
 }
 footer p {
     margin-bottom:20px;
-}
-#social a:link {
-    opacity:1;
-    border-bottom:none;
-}
-#footertext {
-    right:5%;
-    position:absolute;
-    bottom:30px;
-    font:300 14px 'Open Sans';
-    text-align:right;
 }
 #buds img {
     width:50%;
@@ -408,7 +355,6 @@ footer p {
    -moz-transition: .25s ease-in-out;
    -webkit-transition: .25s ease-out;
 }
-
 #buds img:hover{
     width:60%;
     -webkit-filter: grayscale(0%);
@@ -424,7 +370,6 @@ footer p {
     position:absolute;
     left:140px;
 }
-
 #footjump {
     position:absolute;
     width:100%;
