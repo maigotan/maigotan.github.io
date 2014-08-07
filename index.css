@@ -25,6 +25,9 @@ body {
 	color: #181818;
 	background: #EDEDED;
 }
+p {
+    margin-bottom:20px;
+}
 em {
     font-style:italic;
 }
@@ -43,6 +46,7 @@ del {
     border-bottom:1px dotted;
     cursor:help;
 }
+
 
 
 /* Common effects */
@@ -121,12 +125,15 @@ header {
     padding-top:7px;
     border-top:1px dashed #DADADA;
 }
-
 .relimg {
     height:auto;
 }
 .reltext {
     width:48%;
+    color:#686868;
+}
+.reltext p {
+    margin-bottom:20px;
 }
 .mechanical {
     height:880px;
@@ -211,6 +218,7 @@ header {
     left:5%;
     top:13%;
 }
+
 
 
 /* Project Section */
@@ -346,7 +354,6 @@ footer p {
     font-size:50px;
     font-weight:300;
 }
-
 #buds img {
     width:50%;
     -webkit-filter: grayscale(100%);
@@ -366,7 +373,6 @@ footer p {
     position:absolute;
     left:0;
 }
-
 #vexed {
     position:absolute;
     left:140px;
