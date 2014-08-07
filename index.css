@@ -299,7 +299,8 @@ header {
 /* Footer Section */
 #footercontainer {
     height:auto;
-    background:#232323;
+    min-height:900px;
+    background:#323232;
     padding:70px 0 90px 0;
 }
 #footercontainer p {
@@ -327,8 +328,10 @@ footer {
     opacity:1;
 }
 #comment {
-    width:50%;
-    margin-left:45%;
+    width:48%;
+    margin-left:43%;
+    padding:20px;
+    background:#EDEDED;
 }
 #buds {
     width:40%;
