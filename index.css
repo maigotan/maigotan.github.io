@@ -218,6 +218,17 @@ header {
     left:5%;
     top:13%;
 }
+.hakoiri {
+    height:auto;
+}
+.hakoiri .relimg {
+    width:100%;
+    text-align:center;
+}
+.hakoiri .reltext {
+    text-align:center;
+    margin:0 auto;
+}
 
 
 
