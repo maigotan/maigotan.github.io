@@ -104,7 +104,7 @@ header {
     min-width:1000px;
     width:100%;
     margin:0 auto;
-    padding:40px 0;
+    padding:50px 0;
     position:relative;
 }
 .release h1 {
@@ -199,12 +199,12 @@ header {
 }
 .gonensei .relimg {
     position:absolute;
-    left:3%;
+    left:5%;
 }
 .gonensei .reltext {
     position:absolute;
-    right:8%;
-    top:20%;
+    right:5%;
+    top:24%;
 }
 .kekkon {
     height:540px;
@@ -229,7 +229,18 @@ header {
     text-align:center;
     margin:0 auto;
 }
-
+.oa {
+    height:780px;
+}
+.oa .relimg {
+    position:absolute;
+    left:8%;
+}
+.oa .reltext {
+    position:absolute;
+    right:5%;
+    top:23%;
+}
 
 
 /* Project Section */
