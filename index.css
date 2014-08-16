@@ -241,7 +241,17 @@ header {
     right:5%;
     top:23%;
 }
-
+.hajiotsu {
+    height:auto;
+}
+.hajiotsu .relimg {
+    width:100%;
+    text-align:center;
+}
+.hajiotsu .reltext {
+    text-align:center;
+    margin:0 auto;
+}
 
 /* Project Section */
 #projectcontainer {
