@@ -252,6 +252,19 @@ header {
     text-align:center;
     margin:0 auto;
 }
+.nonscale {
+    height:700px;
+}
+.nonscale .relimg {
+    position:absolute;
+    left:16%;
+}
+.nonscale .reltext {
+    position:absolute;
+    right:5%;
+    top:30%;
+}
+
 
 /* Project Section */
 #projectcontainer {
