@@ -264,6 +264,17 @@ header {
     right:5%;
     top:30%;
 }
+.spotted {
+    height:auto;
+}
+.spotted .relimg {
+    width:100%;
+    text-align:center;
+}
+.spotted .reltext {
+    text-align:center;
+    margin:0 auto;
+}
 
 
 /* Project Section */
