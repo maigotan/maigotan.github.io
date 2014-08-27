@@ -338,11 +338,6 @@ header {
     width:300px;
     margin-bottom:60px;
 }
-#project h4 {
-    font-size:14px;
-    margin:0 auto;
-    width:88%;
-}
 #project h2 {
     font-weight:300;
     font-size:30px;
@@ -357,7 +352,12 @@ header {
     font-style:italic;
     margin-bottom:30px;
 }
-
+#project p {
+    font-size:14px;
+    margin:0 auto;
+    width:88%;
+    margin-bottom:15px;
+}
 
 
 /* Footer Section */
