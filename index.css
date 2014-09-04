@@ -287,7 +287,7 @@ header {
 #project {
     margin:0 auto;
     width:91%;
-    max-width:1280px;
+    max-width:1920px;
     min-width:900px;
     text-align:center;
 }
@@ -301,7 +301,7 @@ header {
 /*    border:solid 10px rgba(105, 116, 145, 0.6);*/
 }
 #project .projoverlay {
-    text-shadow: 0px 0px 6px rgb(101, 101, 101);
+    text-shadow: 0px 0px 6px #656565;
     cursor:default;
     color: #FEFEFE;
     height:420px;
@@ -321,7 +321,7 @@ header {
 #project .imgcontainer:hover img {
     opacity:0.1;
 }
-#project .imgcontainer:hover h2, h3, h4{
+#project .imgcontainer:hover h2, h3, h4 {
 }
 #project .imgcontainer {
     display:inline-block;
@@ -333,22 +333,23 @@ header {
 #project h1 {
     font-size:80px;
     font-weight:300;
-    color: #8b93ad;
+    color: #95acc9;
     padding-bottom:24px;
     margin:0 auto;
     margin-bottom:15px;
 }
 .projoverlay h2 {
-    font-weight:300;
-    font-size:30px;
-    font-style:italic;
+    font-weight:800;
+    font-size:24px;
+    color:#9cb6d4;
     margin-top:45%;
-    line-height:30px;
+    line-height:24px;
     margin-bottom:5px;
 }
 #project h3 {
     font-weight:300;
-    font-size:14px;
+    font-size:16px;
+    color:#9ca9c1;
     font-style:italic;
     margin-bottom:30px;
 }
@@ -356,6 +357,7 @@ header {
     font-size:14px;
     margin:0 auto;
     width:88%;
+    color:#b9d4ea;
     margin-bottom:15px;
 }
 
@@ -364,7 +366,7 @@ header {
 #footercontainer {
     height:auto;
     background:#343434;
-    padding:0px 0 110px 0;
+    padding:60px 0 70px 0;
 }
 footer {
     font:400 18px 'Open Sans';
@@ -375,7 +377,6 @@ footer {
     min-height:1000px;
     position:relative;
     color:#ABABAB;
-    padding-top:60px;
 }
 footer p {
     margin-bottom:20px;
@@ -389,7 +390,7 @@ footer p {
     margin-top:20px;
     font-size:50px;
     font-weight:300;
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 #comment {
     width:50%;
