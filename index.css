@@ -321,8 +321,10 @@ header {
 #project .imgcontainer:hover img {
     opacity:0.1;
 }
+/*
 #project .imgcontainer:hover h2, h3, h4 {
 }
+*/
 #project .imgcontainer {
     display:inline-block;
     position:relative;
@@ -338,28 +340,30 @@ header {
     margin:0 auto;
     margin-bottom:15px;
 }
-.projoverlay h2 {
-    font-weight:800;
-    font-size:24px;
-    color:#9cb6d4;
-    margin-top:45%;
-    line-height:24px;
-    margin-bottom:5px;
-}
-#project h3 {
-    font-weight:300;
+.projcontent {
     font-size:16px;
-    color:#9ca9c1;
-    font-style:italic;
-    margin-bottom:30px;
-}
-#project p {
-    font-size:14px;
-    margin:0 auto;
+    font-weight:400;
     width:88%;
     color:#b9d4ea;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.projcontent h2 {
+    font-weight:800;
+    font-size:35px;
+    color:#9cb6d4;
+    line-height:30px;
+}
+.projcontent h3 {
+    font-weight:300;
+    font-size:18px;
+    color:#9ca9c1;
+    font-style:italic;
     margin-bottom:15px;
 }
+
 
 
 /* Footer Section */
