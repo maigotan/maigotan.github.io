@@ -63,7 +63,7 @@ del {
 
 /* Header */
 header {
-    height:400px;
+    height:350px;
     background:#181818;
     position:relative;
 }
@@ -80,7 +80,7 @@ header {
     text-align:center;
     position:absolute;
     width:100%;
-    bottom:12%;
+    bottom:17%;
 }
 .links {
     font-size:14px;
