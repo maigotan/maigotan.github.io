@@ -89,198 +89,10 @@ header {
 
 
 
-/* Release Section */
-.releasecontainer {
-    width:100%;
-    margin:60px auto;
-}
-.releasecontainer .imgcontainer {
-    margin:0 auto;
-    width:800px;
-    height:160px;
-}
-.release {
-    max-width:1200px;
-    min-width:1000px;
-    width:100%;
-    margin:0 auto;
-    padding:50px 0;
-    position:relative;
-}
-.release h1 {
-    font:300 40px 'Open Sans', sans-serif;
-    color:#383838;
-    line-height:46px;
-    margin-bottom:-12px;
-}
-.release h2 {
-    font:800 50px 'Open Sans', sans-serif;
-    color:#383838;
-    margin-bottom:20px;
-}
-.reltext h3 {
-    font:300 14px 'Open Sans', sans-serif;
-    color:#BDBDBD;
-    margin-top:70px;
-    padding-top:7px;
-    border-top:1px dashed #DADADA;
-}
-.relimg {
-    height:auto;
-}
-.reltext {
-    width:48%;
-    color:#686868;
-}
-.reltext p {
-    margin-bottom:20px;
-}
-.mechanical {
-    height:880px;
-}
-.mechanical .relimg {
-    position:absolute;
-    left:-120px;
-}
-.mechanical .reltext {
-    position:absolute;
-    right:60px;
-    top:230px;
-}
-.haganai {
-    height:auto;
-}
-.haganai .relimg {
-    width:100%;
-    text-align:center;
-}
-.haganai .reltext {
-    text-align:center;
-    margin:0 auto;
-}
-.taiyou {
-    height:520px;
-    padding:40px 0;
-}
-.taiyou .relimg {
-    position:absolute;
-    right:5%;
-}
-.taiyou .reltext {
-    position:absolute;
-    left:60px;
-    top:28%;
-}
-.natsu {
-    height:auto;
-}
-.natsu .relimg {
-    width:100%;
-    text-align:center;
-}
-.natsu .reltext {
-    text-align:center;
-    margin:0 auto;
-}
-.letra {
-    height:720px;
-}
-.letra .relimg {
-    position:absolute;
-    right:0;
-}
-.letra .reltext {
-    position:absolute;
-    left:5%;
-    top:25%;
-}
-.gonensei {
-    height:700px;
-}
-.gonensei .relimg {
-    position:absolute;
-    left:5%;
-}
-.gonensei .reltext {
-    position:absolute;
-    right:5%;
-    top:28%;
-}
-.kekkon {
-    height:540px;
-}
-.kekkon .relimg {
-    position:absolute;
-    right:5%;
-}
-.kekkon .reltext {
-    position:absolute;
-    left:5%;
-    top:13%;
-}
-.hakoiri {
-    height:auto;
-}
-.hakoiri .relimg {
-    width:100%;
-    text-align:center;
-}
-.hakoiri .reltext {
-    text-align:center;
-    margin:0 auto;
-}
-.oa {
-    height:780px;
-}
-.oa .relimg {
-    position:absolute;
-    left:8%;
-}
-.oa .reltext {
-    position:absolute;
-    right:5%;
-    top:23%;
-}
-.hajiotsu {
-    height:auto;
-}
-.hajiotsu .relimg {
-    width:100%;
-    text-align:center;
-}
-.hajiotsu .reltext {
-    text-align:center;
-    margin:0 auto;
-}
-.nonscale {
-    height:700px;
-}
-.nonscale .relimg {
-    position:absolute;
-    left:16%;
-}
-.nonscale .reltext {
-    position:absolute;
-    right:5%;
-    top:30%;
-}
-.spotted {
-    height:auto;
-}
-.spotted .relimg {
-    width:100%;
-    text-align:center;
-}
-.spotted .reltext {
-    text-align:center;
-    margin:0 auto;
-}
-
-
 /* Project Section */
 #projectcontainer {
     height:auto;
-    background:#68758b;
+    background:#55607f;
     padding-top:60px;
     padding-bottom:80px;
 }
@@ -294,16 +106,15 @@ header {
 #project img {
     height:420px;
     width:300px;
-    box-shadow: 2px 2px 30px 0px #454a57;
+    box-shadow: 2px 2px 60px 0px #424e71;
     transition: .25s ease-in-out;
    -moz-transition: .25s ease-in-out;
    -webkit-transition: .25s ease-out;
-/*    border:solid 10px rgba(105, 116, 145, 0.6);*/
 }
 #project .projoverlay {
-    text-shadow: 0px 0px 6px #656565;
+    text-shadow: 0px 0px 6px #424e71;
     cursor:default;
-    color: #FEFEFE;
+    color: #a1afd8;
     height:420px;
     width:300px;
     opacity:0;
@@ -335,16 +146,15 @@ header {
 #project h1 {
     font-size:80px;
     font-weight:300;
-    color: #95acc9;
     padding-bottom:24px;
     margin:0 auto;
     margin-bottom:15px;
+    color: #a1afd8;
 }
 .projcontent {
     font-size:16px;
     font-weight:400;
     width:88%;
-    color:#b9d4ea;
     position:absolute;
     top:50%;
     left:50%;
@@ -353,13 +163,11 @@ header {
 .projcontent h2 {
     font-weight:800;
     font-size:35px;
-    color:#9cb6d4;
     line-height:30px;
 }
 .projcontent h3 {
     font-weight:300;
     font-size:18px;
-    color:#9ca9c1;
     font-style:italic;
     margin-bottom:15px;
 }
