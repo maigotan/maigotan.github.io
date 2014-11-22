@@ -55,32 +55,64 @@ del {
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-out;
 }
-.smallOpenSans {
-    font: 300 20px 'Open Sans', sans-serif;
-}
 
 
 
 /* Header */
 header {
-    height:350px;
+    height: auto;
+    background: #181818;
+    background-image:url('pics/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+#headercontainer {
+    height:100vh;
+    max-width:1280px;
+    min-width:900px;
+    position: relative;
+    margin:0 auto;
+    overflow:hidden;
+}
+#headeroverlay {
+    position:absolute;
+    height:100vh;
+    width:100%;
+    top:0;
     background:#181818;
-    position:relative;
+    opacity:0.78;
 }
 #logo {
     /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
-    margin: 0 auto;
+    width:100%;
     text-align:center;
     position:absolute;
-    width:100%;
-    top:20%;
+    bottom:45%;
+    color:#EDEDED;
+    font-weight:300;
+    font-size:26px;
+}
+#logo img {
+    height:240px;
+    margin-bottom:10px;
 }
 .mo {
     color:#EDEDED;
     text-align:center;
-    position:absolute;
     width:100%;
-    bottom:17%;
+    position:absolute;
+    bottom:15%;
+    font-weight:300;
+}
+.mo h1 {
+    font-size:40px;
+    position:absolute;
+    left:8%;
+}
+.mo h2 {
+    font-size:40px;
+    position:absolute;
+    right:8%;
 }
 .links {
     font-size:14px;
@@ -93,8 +125,8 @@ header {
 #projectcontainer {
     height:auto;
     background:#55607f;
-    padding-top:60px;
-    padding-bottom:80px;
+    padding-top:110px;
+    padding-bottom:100px;
 }
 #project {
     margin:0 auto;
