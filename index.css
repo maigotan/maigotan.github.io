@@ -196,6 +196,7 @@ header {
     left:50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+    line-height:27px;
 }
 .projcontent h2 {
     font-weight:800;
@@ -229,6 +230,7 @@ footer {
 }
 footer p {
     margin-bottom:20px;
+    line-height:27px;
 }
 #us {
     position:absolute;
@@ -239,7 +241,7 @@ footer p {
     margin-top:20px;
     font-size:50px;
     font-weight:300;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 #comment {
     width:50%;
