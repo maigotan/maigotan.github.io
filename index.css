@@ -196,7 +196,7 @@ header {
     left:50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
-    line-height:28px;
+    line-height:26px;
 }
 .projcontent h2 {
     font-weight:800;
@@ -230,7 +230,7 @@ footer {
 }
 footer p {
     margin-bottom:26px;
-    line-height:28px;
+    line-height:27px;
 }
 #us {
     position:absolute;
