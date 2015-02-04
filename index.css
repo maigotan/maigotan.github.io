@@ -61,9 +61,9 @@ del {
 header {
     height: auto;
     background: #181818;
-    background-image:url('/pics/bg.jpg');
+    background-image:url('/pics/bg.png');
     background-attachment: fixed;
-    background-position: 50% 60%;
+    background-position: 50% 20%;
     background-size: cover;
 }
 #headercontainer {
