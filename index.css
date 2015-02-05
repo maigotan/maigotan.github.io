@@ -45,10 +45,7 @@ del {
     border-bottom:1px dotted;
     cursor:help;
 }
-.hover {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;        
-}
+
 
 
 /* Common effects */
@@ -225,13 +222,10 @@ and (max-device-width : 1024px) {
    -moz-transition: .10s ease-in;
    -webkit-transition: .10s ease-in;
 }
-#project .projoverlay:hover,.imgcontainer.hover_effect {
+#project .imgcontainer:hover .projoverlay{
     opacity:1;
 }
 #project .imgcontainer:hover img {
-    opacity:0.1;
-}
-#project .imgcontainer.hover_effect img {
     opacity:0.1;
 }
 #project .imgcontainer {
