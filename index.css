@@ -87,6 +87,14 @@ header {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
+    header {
+    height: auto;
+    background: #181818;
+    background-image:url('/pics/bg.png');
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-size: cover;
+}
     #headercontainer {
         height:1000px;
     }
@@ -98,6 +106,14 @@ and (max-device-width : 667px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
+    header {
+    height: auto;
+    background: #181818;
+    background-image:url('/pics/bg.png');
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-size: cover;
+}
     #headercontainer {
         height:1000px;
     }
@@ -109,6 +125,14 @@ and (max-device-width : 568px) {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
+    header {
+    height: auto;
+    background: #181818;
+    background-image:url('/pics/bg.png');
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-size: cover;
+}
     #headercontainer {
         height:1000px;
     }
