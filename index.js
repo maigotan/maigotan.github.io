@@ -1,13 +1,14 @@
 /*
 	index.js - for index.html
 */
-
+/*
 function pageChange(page) {
     $("img:first").attr({src: "./comic/" + page + ".png"});
     $("#pagination").html("Page " + page);
 }
-
+*/
 window.onload = function () {
+$('body').bind('touchstart', function() {});
 	/*
     var start = 1, end = 7, width = 768, page = start;
 
