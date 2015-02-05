@@ -83,18 +83,21 @@ header {
     background:#181818;
     opacity:0.78;
 }
+/*iphone 6plus portrait and landscape*/
+@media only screen 
+and (min-device-width : 540px) 
+and (max-device-width : 960px) { 
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
 /*iphone 6 portrait and landscape*/
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-    header {
-    height: auto;
-    background: #181818;
-    background-image:url('/pics/bg.png');
-    background-attachment: fixed;
-    background-position: 50% 20%;
-    background-size: cover;
-}
     #headercontainer {
         height:1000px;
     }
@@ -106,14 +109,17 @@ and (max-device-width : 667px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
-    header {
-    height: auto;
-    background: #181818;
-    background-image:url('/pics/bg.png');
-    background-attachment: fixed;
-    background-position: 50% 20%;
-    background-size: cover;
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
 }
+/*iphone 2G - 4S*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
     #headercontainer {
         height:1000px;
     }
@@ -125,14 +131,6 @@ and (max-device-width : 568px) {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-    header {
-    height: auto;
-    background: #181818;
-    background-image:url('/pics/bg.png');
-    background-attachment: fixed;
-    background-position: 50% 20%;
-    background-size: cover;
-}
     #headercontainer {
         height:1000px;
     }
