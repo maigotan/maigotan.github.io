@@ -75,13 +75,6 @@ header {
     margin:0 auto;
     overflow:hidden;
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
-    #headercontainer {
-        height:300px;
-    }
-}
 #headeroverlay {
     position:absolute;
     height:100vh;
@@ -89,6 +82,39 @@ and (max-device-width : 568px) {
     top:0;
     background:#181818;
     opacity:0.78;
+}
+/*iphone 6 portrait and landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*iphone 5/5s portrait and landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*ipads*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
 }
 #logo {
     /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
