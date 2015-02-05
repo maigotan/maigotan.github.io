@@ -225,10 +225,7 @@ and (max-device-width : 1024px) {
    -moz-transition: .10s ease-in;
    -webkit-transition: .10s ease-in;
 }
-#project .imgcontainer:hover .projoverlay{
-    opacity:1;
-}
-#project .imgcontainer.hover_effect .projoverlay{
+#project .projoverlay:hover,.imgcontainer.hover_effect {
     opacity:1;
 }
 #project .imgcontainer:hover img {
