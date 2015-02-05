@@ -45,7 +45,10 @@ del {
     border-bottom:1px dotted;
     cursor:help;
 }
-
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;        
+}
 
 
 /* Common effects */
@@ -225,7 +228,13 @@ and (max-device-width : 1024px) {
 #project .imgcontainer:hover .projoverlay{
     opacity:1;
 }
+#project .imgcontainer.hover_effect .projoverlay{
+    opacity:1;
+}
 #project .imgcontainer:hover img {
+    opacity:0.1;
+}
+#project .imgcontainer.hover_effect img {
     opacity:0.1;
 }
 #project .imgcontainer {

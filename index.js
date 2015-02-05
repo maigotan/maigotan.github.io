@@ -8,7 +8,13 @@ function pageChange(page) {
 }
 */
 window.onload = function () {
-$('body').bind('touchstart', function() {});
+    
+$(body).ready(function() {
+    $('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
 	/*
     var start = 1, end = 7, width = 768, page = start;
 
