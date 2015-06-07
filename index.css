@@ -64,7 +64,7 @@ header {
     background: #181818;
     background-image:url('/pics/bg.png');
     background-attachment: fixed;
-    background-position: 50% 24%;
+    background-position: 50% 20%;
     background-size: cover;
 }
 #headercontainer {
