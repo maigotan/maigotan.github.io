@@ -1,4 +1,0 @@
-Maigo
-=====
-
-Maigo's site.
