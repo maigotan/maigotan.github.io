@@ -41,21 +41,6 @@ hr {
 del {
     text-decoration:line-through;
 }
-.jp {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-
-
-/* Common effects */
-.fadeopacity {
-    transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-out;
-}
-
-
 
 
 /* Header */
@@ -82,61 +67,6 @@ header {
     top:0;
     background:#181818;
     opacity:0.78;
-}
-/*iphone 6plus portrait and landscape*/
-@media only screen 
-and (min-device-width : 540px) 
-and (max-device-width : 960px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 6 portrait and landscape*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 5/5s portrait and landscape*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 2G - 4S*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*ipads*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
 }
 #logo {
     /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
@@ -179,10 +109,6 @@ and (max-device-width : 1024px) {
     bottom:0;
     text-align:right;
 }
-.links {
-    font-size:14px;
-    color:#585858;
-}
 
 
 
@@ -195,8 +121,7 @@ and (max-device-width : 1024px) {
 }
 #project {
     margin:0 auto;
-    width:91%;
-    max-width:1920px;
+    max-width:1500px;
     min-width:910px;
     text-align:center;
 }
@@ -374,4 +299,60 @@ footer p {
     width:100%;
     text-align:center;
     bottom:-15px;
+}
+
+/*iphone 6plus portrait and landscape*/
+@media only screen 
+and (min-device-width : 540px) 
+and (max-device-width : 960px) { 
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*iphone 6 portrait and landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*iphone 5/5s portrait and landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*iphone 2G - 4S*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
+}
+/*ipads*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    #headercontainer {
+        height:1000px;
+    }
+    #headeroverlay {
+        height:1000px;
+    }
 }
