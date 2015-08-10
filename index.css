@@ -9,23 +9,23 @@ box-shadow: 1px 1px 1px #333;
 /* General Section */
 a:link {
     color:#718ddb;
-    transition:  .25s ease-in-out;
-   -moz-transition:  .25s ease-in-out;
-   -webkit-transition:  .25s ease-out;
 }
 a:hover {
-    text-decoration:;
+    text-decoration:underline;
 }
 a:visited {
     color:#d46a6c;
 }
 body {
-	font: 400 18px 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #181818;
 	background: #EDEDED;
+    font-size:100%;
 }
 p {
-    margin-bottom:20px;
+    margin-bottom:1.5em;
+    line-height:1.5em;
+    font-size:1.125em;
 }
 em {
     font-style:italic;
@@ -47,15 +47,15 @@ del {
 header {
     height: auto;
     background: #181818;
-    background-image:url('/pics/bg.png');
+    background-image:url('/pics/rls.png');
     background-attachment: fixed;
     background-position: 50% 24%;
     background-size: cover;
 }
 #headercontainer {
     height:100vh;
-    max-width:1280px;
-    min-width:900px;
+    max-width:1200px;
+    min-width:1000px;
     position: relative;
     margin:0 auto;
     overflow:hidden;
@@ -95,7 +95,7 @@ header {
 .mo h1 {
     font-size:40px;
     position:absolute;
-    left:8%;
+    left:5%;
     text-align:left;
     bottom:0;
 }
@@ -105,7 +105,7 @@ header {
 .mo h2 {
     font-size:40px;
     position:absolute;
-    right:8%;
+    right:5%;
     bottom:0;
     text-align:right;
 }
@@ -121,9 +121,10 @@ header {
 }
 #project {
     margin:0 auto;
-    max-width:1500px;
-    min-width:910px;
+    max-width:1000px;
+    min-width:800px;
     text-align:center;
+    padding:0 1.5em;
 }
 #project img {
     height:420px;
@@ -159,13 +160,13 @@ header {
     height:420px;
     width:300px;
     margin-bottom:60px;
+    vertical-align: top;
 }
 #project h1 {
     font-size:80px;
     font-weight:300;
-    padding-bottom:24px;
     margin:0 auto;
-    margin-bottom:15px;
+    margin-bottom:40px;
     color: #a1afd8;
 }
 .projcontent {
@@ -200,7 +201,6 @@ header {
     padding:60px 0 70px 0;
 }
 footer {
-    font:400 18px 'Open Sans';
     margin:0 auto;
     max-width:1200px;
     min-width:1000px;
@@ -208,10 +208,6 @@ footer {
     min-height:1000px;
     position:relative;
     color:#ABABAB;
-}
-footer p {
-    margin-bottom:26px;
-    line-height:27px;
 }
 #us {
     position:absolute;
