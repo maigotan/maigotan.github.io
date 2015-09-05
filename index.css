@@ -8,13 +8,13 @@ box-shadow: 1px 1px 1px #333;
 
 /* General Section */
 a:link {
-    color:#718ddb;
+    color:#8a99c7;
 }
 a:hover {
     text-decoration:underline;
 }
 a:visited {
-    color:#d46a6c;
+    color:#838ba3;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -45,29 +45,30 @@ del {
 
 /* Header */
 header {
-    height: auto;
+    height:100vh;
+    width:100%;
     background: #181818;
     background-image:url('/pics/rls.jpg');
     background-attachment: fixed;
     background-position: 50% 24%;
     background-size: cover;
+
 }
+    #headeroverlay {
+        height:inherit;
+        position:absolute;
+        width:inherit;
+        background:#181818;
+        opacity:0.78;
+    }
 #headercontainer {
     height:100vh;
     max-width:1200px;
     min-width:1000px;
     position: relative;
     margin:0 auto;
-    overflow:hidden;
 }
-#headeroverlay {
-    position:absolute;
-    height:100vh;
-    width:100%;
-    top:0;
-    background:#181818;
-    opacity:0.78;
-}
+
 #logo {
     /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
     position:absolute;
