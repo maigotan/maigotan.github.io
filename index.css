@@ -47,9 +47,9 @@ del {
 header {
     width:100%;
     background: #181818;
-    background-image:url('/pics/rls.png');
+    background-image:url('/pics/rls.jpg');
     background-attachment: fixed;
-    background-position: 50% 10%;
+    background-position: 50% 30%;
     background-size: cover;
 }
     #headeroverlay {
