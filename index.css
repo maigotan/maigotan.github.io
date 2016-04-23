@@ -114,6 +114,7 @@ header a:visited {
     transition: .25s ease-in-out;
    -moz-transition: .25s ease-in-out;
    -webkit-transition: .25s ease-out;
+    border-radius: 2px;
 }
 #project .projoverlay {
     text-align: center;
@@ -196,6 +197,7 @@ header a:visited {
   padding-right:40px;
   padding-left:40px;
   background-color:#DEDEDE;
+  border-radius: 2px;
 }
 footer {
     width:100%;
