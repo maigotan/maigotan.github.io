@@ -1,17 +1,9 @@
-/*
-Cheat sheet:
-font: italic small-caps bold 34px/100px "Times New Roman", Times, serif;
-box-shadow: 1px 1px 1px #333;
-*/
-
-
-
 /* General Section */
 a:link {
     color:#8a99c7;
 }
 a:hover {
-    text-decoration:underline;
+    text-decoration:none;
 }
 a:visited {
     color:#838ba3;
@@ -19,7 +11,7 @@ a:visited {
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #181818;
-	background: #EDEDED;
+	background: #DEDEDE;
     font-size:100%;
 }
 p {
@@ -35,8 +27,8 @@ strong {
 }
 hr {
     border: 0;
-    border-bottom:1px dashed #DEDEDE;
-    width: 100%;
+    border-bottom:4px double #626f93;
+    width: 110px;
 }
 del {
     text-decoration:line-through;
@@ -45,100 +37,91 @@ del {
 
 /* Header */
 header {
-    width:100%;
-    background: #181818;
-    background-image:url('/pics/rls.jpg');
-    background-attachment: fixed;
-    background-position: 50% 30%;
-    background-size: cover;
+  width:100%;
+  height:750px;
+  background-image:url('/pics/rls.jpg');
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  font-size: 20px;
 }
-    #headeroverlay {
-        height:100vh;
-        position:absolute;
-        width:inherit;
-        background:#181818;
-        opacity:0.78;
-    }
+#headeroverlay {
+    height:inherit;
+    width:inherit;
+    position:absolute;
+    background:#181818;
+    opacity:0.68;
+}
 #headercontainer {
-    height:100vh;
-    max-width:1200px;
-    min-width:1000px;
+    height:inherit;
+  width:1200px;
     position: relative;
-    margin:0 auto;
+  margin:0 auto;
 }
 
+header a:link {
+  color:#999;
+}
+header a:hover {
+  color:#111;
+  text-decoration:none;
+}
+header a:visited {
+  color:#999;
+}
 #logo {
-    /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
-    position:absolute;
-    color:#EDEDED;
-    font-weight:300;
-    font-size:26px;
-    top:50%;
-    left:50%;
-    text-align:center;
-    transform: translate(-50%,-80%);
-    -webkit-transform: translate(-50%,-80%);
+  /*font: bold 3em "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
+  position:absolute;
+  bottom:40px;
+  height:90px;
+  left:35px;
 }
 #logo img {
-    height:240px;
-    margin-bottom:10px;
+  height: inherit;
+  opacity:0.9;
 }
-.mo {
-    color:#EDEDED;
-    text-align:center;
-    width:100%;
-    position:absolute;
-    bottom:8%;
-    font-weight:300;
+#rls {
+  position: absolute;
+  color:#ccc;
+  font-weight:300;
+  font-size:22px;
+  right:0;
+  text-align: right;
+  width:800px;
+  bottom:40px;
 }
-.mo h1 {
-    font-size:40px;
-    position:absolute;
-    left:5%;
-    text-align:left;
-    bottom:0;
-}
-.mo h2 span {
-    font-size:20px;
-}
-.mo h2 {
-    font-size:40px;
-    position:absolute;
-    right:5%;
-    bottom:0;
-    text-align:right;
-}
-
 
 
 /* Project Section */
 #projectcontainer {
-    height:auto;
-    background:#55607f;
-    padding-top:110px;
-    padding-bottom:100px;
+  background:#55607f;
+}
+#projectcontainer2 {
+  margin: 0 auto;
+  width:1200px;
+  position:relative;
 }
 #project {
-    margin:0 auto;
-    max-width:1200px;
-    min-width:930px;
-    text-align:center;
-    padding:0 1.5em;
+  text-align: center;
+  width:420px;
+  position: absolute;
+  left:0%;
 }
 #project img {
-    height:420px;
-    width:300px;
+    height:inherit;
+    width:inherit;
     box-shadow: 2px 2px 20px 0px #333d5a;
     transition: .25s ease-in-out;
    -moz-transition: .25s ease-in-out;
    -webkit-transition: .25s ease-out;
 }
 #project .projoverlay {
+    text-align: center;
     text-shadow: 0px 0px 6px #5e6577;
     cursor:default;
     color: #a1afd8;
-    height:420px;
-    width:300px;
+    height:inherit;
+    width:inherit;
     opacity:0;
     position:absolute;
     top:0px;
@@ -154,18 +137,19 @@ header {
     opacity:0.1;
 }
 #project .imgcontainer {
-    display:inline-block;
-    position:relative;
-    height:420px;
-    width:300px;
-    margin-bottom:60px;
-    vertical-align: top;
+  display:inline-block;
+  position:relative;
+  height:460px;
+  width:320px;
+  margin-top:20px;
+  margin-bottom:20px;
+  opacity:0.98;
 }
 #project h1 {
-    font-size:80px;
+    font-size:40px;
     font-weight:300;
-    margin:0 auto;
-    margin-bottom:40px;
+    margin-top:20px;
+    margin-bottom:20px;
     color: #a1afd8;
 }
 .projcontent {
@@ -190,103 +174,44 @@ header {
     font-style:italic;
     margin-bottom:15px;
 }
-
-
-
-/* Footer Section */
-#footercontainer {
-    height:auto;
-    background:#343434;
-    padding:60px 0 70px 0;
-}
-footer {
-    margin:0 auto;
-    max-width:1200px;
-    min-width:1000px;
-    height:auto;
-    min-height:1000px;
-    position:relative;
-    color:#ABABAB;
-}
-#us {
-    position:absolute;
-    left:5%;
-    width:30%;
-}
-#us h1 {
-    margin-top:20px;
-    font-size:50px;
-    font-weight:300;
-    margin-bottom:8px;
-}
 #comment {
-    width:50%;
-    margin-left:37%;
-    padding:20px 40px;
-    background:#EDEDED;
-    min-height:1100px;
+  width:60%;
+  min-height:1100px;
+  position:relative;
+  left:480px;
+  padding-bottom:50px;
 }
 #comment h1 {
-    font-size:50px;
-    font-weight:300;
-    color:#343434;
+  font-size:40px;
+  font-weight:300;
+  padding-top:20px;
+  margin-bottom:20px;
+  color: #a1afd8;
+  text-align:center;
 }
-#budscontainer {
+#disqus_thread {
+  margin-top:27px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:40px;
+  padding-left:40px;
+  background-color:#DEDEDE;
+}
+footer {
     width:100%;
-    height:190px;
+    height:30px;
     background:#181818;
-    padding:20px 0;
+    padding:30px 0;
     color:#DEDEDE;
 }
-#buds {
+#end {
     max-width:1200px;
     min-width:1000px;
     margin:0 auto;
-    height:100px;
-    font-size:14px;
-    font-weight:300;
     position:relative;
 }
-#buds a {
-    border-bottom:none;
-}
-#buds a:hover {
-    border-bottom:none;
-    opacity:1;
-}
-#buds img {
-    width:50%;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: .25s ease-in-out;
-   -moz-transition: .25s ease-in-out;
-   -webkit-transition: .25s ease-out;
-}
-#buds img:hover{
-    width:80%;
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(0%);
-}
-#buds h1 {
-    font-size:90px;
-    font-weight:800;
-    position:absolute;
-    left:5%;
-}
-#nase {
-    position:absolute;
-    right:20%;
-    top:14px;
-    width:200px;
-    text-align:center;
-}
-#vexed {
-    position:absolute;
-    right:5%;
-    top:14px;
-    width:200px;
+#end h1 {
+    font-size:20px;
     text-align:center;
 }
 #footjump {
@@ -294,60 +219,4 @@ footer {
     width:100%;
     text-align:center;
     bottom:-15px;
-}
-
-/*iphone 6plus portrait and landscape*/
-@media only screen 
-and (min-device-width : 540px) 
-and (max-device-width : 960px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 6 portrait and landscape*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 5/5s portrait and landscape*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*iphone 2G - 4S*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
-}
-/*ipads*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-    #headercontainer {
-        height:1000px;
-    }
-    #headeroverlay {
-        height:1000px;
-    }
 }
