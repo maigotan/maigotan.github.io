@@ -14,63 +14,125 @@
   </head>
   
   <body>
+
+    <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="img/logobb.png" alt="maigo_logo" height="30px" title="maigo">
+      </a>
+
+      <div class="nav navbar-nav pull-xs-right">
+
+                <a class="nav-item nav-link" href="http://www.batoto.net/group/_/m/maigo-r105">Batoto</a>
+                <a class="nav-item nav-link" href="https://www.mangaupdates.com/groups.html?id=2948">MangaUpdates</a>
+                <a class="nav-item nav-link" href="http://webchat.irchighway.net/#maigo">IRC</a>
+
+      </div>
+      </div>
+    </nav>
     
     <div class="container-fluid">
       
       <div class="row">
   
-        <div id="desktop-bg" class="hidden-md-down">
-          <div id="desktop-bg-overlay"></div>
-        </div>
-
         <div class="col-xs-12">
-          <br class="hidden-md-down"><br>
-          <nav id="nav-top" class="navbar navbar-full">
 
-            <a class="navbar-brand" href="/">
-              <img src="img/logo.png" alt="maigo_logo" title="maigo">
-            </a>
+          <div class="content row">
 
-            <div class="nav navbar-nav pull-xs-right">
 
-              <a class="nav-item nav-link" href="series.html">Series</a>
 
-              <a class="nav-item nav-link" href="http://db.tt/zSfQ6jv6">Downloads</a>
+            <div class="latest col-md-8">
+              <h6>LATEST RELEASES</h6>
 
-              <a class="nav-item nav-link" href="disqus.html">Comment</a>
+              <div class="rls">
+                <div class="rls-img two"></div>
+              <div class="rls-text">
+                <small>AUGUST 12</small> <br>
+                <h2>Spotted Flower</h2>
+                <h4>Chapter 19</h4>
+                <br> 
+                <a href="http://bato.to/reader#b0c0a1823149f942" class="btn btn-outline-primary">Read</a>
+                <a href="https://mega.nz/#!Elx1mJiB!urRAxCYMz8pyBKD3n3byRgn3dCsyJACpGWmRNYvZBws" class="btn btn-outline-link">Download</a>
+              </div>
+              </div>
+
+              <div class="rls">                 
+                <div class="rls-img one"></div>
+                <div class="rls-text">
+                <small>AUGUST 5</small> <br>                   
+                <h2>Oh, my sweet alien!</h2>
+                <h4>Chapter 11.1-11.4 (END)</h4>                   
+                <br>                    
+                <a href="http://bato.to/reader#b30621600066338b" class="btn btn-outline-primary">Read</a>
+                <a href="https://mega.nz/#F!clAVTRAJ!_tCtzEaXRV8UGf0Z8pWbYA" class="btn btn-outline-link">Download</a>
+                </div>               
+              </div>             
+            </div>
+          
+            <div class="sidebar col-md-4">
+            <div class="updates">
+            <h6 class="updates-h6">UPDATES</h6>
+            <small>AUGUST 12</small>
+            <p>Gingitsune's translator has retired. <br>The series has been dropped for now.</p>
+            </div>
+            <hr>
+
+            <div class="status">
+
+            <h6>STATUS</h6>
+
+              <div class="status-card">
+                <div class="status-img yome"></div>
+                Mahoutsukai no Yome - 31<br>
+                <em>Lettering.</em>
+              </div>
+
+              <div class="status-card">
+                <div class="status-img spo"></div>
+              Spotted Flower - 20<br>
+              <em>Waiting on raw.</em>
+                </div>
+
+              <div class="status-card last">
+                <div class="status-img gis"></div>
+              Gisele Alain<br>
+                <em>Serialization in hiatus.</em>
+              </div>
 
             </div>
-          </nav>
+            </div>
 
-          <div id="rls" class="hidden-md-down centered">
-            <div id="rls-date" class="thin"><p>AUGUST 5, 2016</p></div>
-            <p id="rls-title" class="m-b-0 display-4">Oh, my sweet alien!</p>
-            <h3 class="thin">V. 2, C. 11.1-11.4<br><br>
-            <a href="http://bato.to/reader#b30621600066338b" class="btn btn-primary btn-md" role="button">Read</a>
-            <a href="https://mega.nz/#F!clAVTRAJ!_tCtzEaXRV8UGf0Z8pWbYA" class="btn btn-outline-secondary" role="button">Download</a></h3>
           </div>
 
-          <figure class="figure hidden-lg-up">
-            <br>
-            <img src="./img/rls.png" id="rls-img" class="figure-img img-fluid img-rounded" alt="rls img">
-            <figcaption class="figure-caption text-xs-right">
-              <span class="tag tag-default">AUGUST 5, 2016</span> 
-              <em>Oh, my sweet alien! </em>V. 2, C. 11.1-11.4<br> 
-              <a href="http://bato.to/reader#b30621600066338b">Read</a> - 
-              <a href="https://mega.nz/#F!clAVTRAJ!_tCtzEaXRV8UGf0Z8pWbYA">Download</a>
-            </figcaption>
-          </figure>
+          <div class="disqus row">
+            <div class="col-md-8">
+            <hr>
+            <!-- DISQUS -->
+            <div id="disqus_thread"></div>
+            <script>
+            var disqus_config = function () {
+              this.page.url = 'http://maigo.us';
+              this.page.identifier = 'home';
+              this.page.title = 'Maigo';
+            };
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
 
-          <footer class="hidden-md-down">
-            <nav class="nav nav-inline">
-              <small>
-                <a class="nav-link" href="http://www.batoto.net/group/_/m/maigo-r105">Batoto</a>
-                <a class="nav-link" href="https://www.mangaupdates.com/groups.html?id=2948">MangaUpdates</a>
-                <a class="nav-link" href="http://webchat.irchighway.net/#maigo">IRC</a>
-              </small>
-            </nav>
-          </footer>
+            s.src = '//maigo.disqus.com/embed.js';
 
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 text-xs-center">
+            <small>v3.0</small><br><br>
+          </div>
+        </div>
 
         </div>
 
