@@ -1,5 +1,4 @@
-<div class="container-fluid">
-      
+<div ng-controller="HomeCtrl as home" class="container-fluid">
       <div class="row">
   
         <div class="col-xs-12">
@@ -72,28 +71,14 @@
           <div class="disqus row">
             <div class="col-md-8">
               <hr>
-              <!-- DISQUS -->
-              <div id="disqus_thread"></div>
-              <script>
-              var disqus_config = function () {
-                this.page.url = 'http://maigo.us';
-                this.page.identifier = 'home';
-                this.page.title = 'Maigo';
-              };
-              (function() { // DON'T EDIT BELOW THIS LINE
-              var d = document, s = d.createElement('script');
+              <dir-disqus config="home.disqusConfig"></dir-disqus>
 
-              s.src = '//maigo.disqus.com/embed.js';
 
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-              })();
-              </script>
-              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
             </div>
           </div>
 
 
+          </div>
           </div>
           </div>
           </div>
