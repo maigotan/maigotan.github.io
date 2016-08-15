@@ -1,84 +1,54 @@
 <div ng-controller="HomeCtrl as home" class="container-fluid">
-      <div class="row">
-  
-        <div class="col-xs-12">
+  <div class="row">
+    <div class="col-xs-12">
 
-          <div class="content row">
+      <div class="content row">
 
-            <div class="latest col-md-8">
-              <h6>LATEST RELEASES</h6>
+        <div class="latest col-md-8">
+          <h6>LATEST RELEASES</h6>
 
-              <div class="rls">
-                <div class="rls-img two"></div>
-              <div class="rls-text">
-                <small>AUGUST 12</small> <br>
-                <h2>Spotted Flower</h2>
-                <h4>Chapter 19</h4>
-                <br> 
-                <a href="http://bato.to/reader#b0c0a1823149f942" class="btn btn-outline-primary">Read</a>
-                <a href="https://mega.nz/#!Elx1mJiB!urRAxCYMz8pyBKD3n3byRgn3dCsyJACpGWmRNYvZBws" class="btn btn-outline-link">Download</a>
-              </div>
-              </div>
-
-              <div class="rls">                 
-                <div class="rls-img one"></div>
-                <div class="rls-text">
-                <small>AUGUST 5</small> <br>                   
-                <h2>Oh, my sweet alien!</h2>
-                <h4>Chapter 11.1-11.4 (END)</h4>                   
-                <br>                    
-                <a href="http://bato.to/reader#b30621600066338b" class="btn btn-outline-primary">Read</a>
-                <a href="https://mega.nz/#F!clAVTRAJ!_tCtzEaXRV8UGf0Z8pWbYA" class="btn btn-outline-link">Download</a>
-                </div>               
-              </div>             
+          <div class="rls" ng-repeat="item in home.latestrls">
+            <div class="{{'rls-img ' + item.pic}}"></div>
+            <div class="rls-text">
+            <small>{{item.date}}</small> <br>
+            <h2>{{item.series}}</h2>
+            <h4>Chapter {{item.chapter}}</h4>
+            <br> 
+            <a href="{{item.batoto}}" class="btn btn-outline-primary">Read</a>
+            <a href="{{item.mega}}" class="btn btn-outline-link">Download</a>
             </div>
-          
-            <div class="sidebar col-md-4">
-            <div class="updates">
-            <h6 class="updates-h6">UPDATES</h6>
-            <small>AUGUST 12</small>
-            <p>Gingitsune's translator has retired. <br>The series has been dropped for now.</p>
-            </div>
-            <hr>
+          </div>           
+        </div>
+      
+        <div class="sidebar col-md-4">
+          <div class="updates">
+          <h6 class="updates-h6">UPDATES</h6>
+          <small>August 12</small>
+          <p>Gingitsune's translator has retired. <br>The series has been dropped for now.</p>
+          </div>
+          <hr>
 
-            <div class="status">
+          <div class="status">
 
-              <h6>STATUS</h6>
+            <h6>STATUS</h6>
 
-              <div class="status-card">
-                <div class="status-img yome"></div>
-                Mahoutsukai no Yome - 31<br>
-                <em>Lettering.</em>
-              </div>
-
-              <div class="status-card">
-                <div class="status-img spo"></div>
-                Spotted Flower - 19.5<br>
-                <em>Translating.</em>
-                </div>
-
-              <div class="status-card last">
-                <div class="status-img gis"></div>
-                Gisèle Alain - 30<br>
-                <em>Serialization in hiatus.</em>
-              </div>
-
-            </div>
+            <div class="status-card" ng-repeat="item in home.status">
+              <div class="{{'status-img ' + item.pic}}"></div>
+              {{item.series}} - {{item.chapter}}<br>
+              <em>{{item.status}}</em>
             </div>
 
           </div>
+        </div>
 
-          <div class="disqus row">
-            <div class="col-md-8">
-              <hr>
-              <dir-disqus config="home.disqusConfig"></dir-disqus>
+      </div>
 
+      <div class="disqus row">
+        <div class="col-md-8">
+          <hr>
+        </div>
+      </div>
 
-            </div>
-          </div>
-
-
-          </div>
-          </div>
-          </div>
-          </div>
+    </div>
+  </div>
+</div>
