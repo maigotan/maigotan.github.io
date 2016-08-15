@@ -32,6 +32,30 @@
     
     <div ng-view></div>
 
+    <div class="container-fluid">
+    <div class="disqus row">
+      <div class="col-md-8">
+        <!-- DISQUS -->
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_config = function () {
+          this.page.url = 'http://maigo.us/#/';
+          this.page.identifier = 'home';
+          this.page.title = 'Maigo';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//maigo.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+      </div>
+    </div>
+</div>
     <footer>
       <small>3.0</small>
     </footer>
