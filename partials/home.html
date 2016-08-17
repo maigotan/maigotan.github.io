@@ -4,33 +4,32 @@
 
       <div class="content row">
 
-        <div class="latest col-md-8">
-          <h6>LATEST RELEASES</h6>
 
-          <div class="rls" ng-repeat="item in home.latestrls">
+      
+              <div class="latest col-md-8">
+          <div class="rls" ng-repeat="item in home.latestrls" ng-class="">
             <div class="{{'rls-img ' + item.pic}}"></div>
             <div class="rls-text">
-            <small>{{item.date}}</small> <br>
-            <h2>{{item.series}}</h2>
-            <h4>Chapter {{item.chapter}}</h4>
-            <br> 
-            <a href="{{item.batoto}}" class="btn btn-outline-primary">Read</a>
-            <a href="{{item.mega}}" class="btn btn-outline-link">Download</a>
+            <small class="rls-date">{{item.date}}</small><br>
+            <h4>{{item.series}} - {{item.chapter}}</h4>
+            <hr>
+            <a href="{{item.batoto}}" class="btn btn-secondary btn-sm"><i class="fa fa-book"></i> Read</a>
+            <a href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> Download</a>
             </div>
           </div>           
         </div>
-      
-        <div class="sidebar col-md-4">
+
+        <div class="col-md-4">
+          <div class="sidebar">
           <div class="updates">
-          <h6 class="updates-h6">UPDATES</h6>
-          <small>August 12</small>
-          <p>Gingitsune's translator has retired. <br>The series has been dropped for now.</p>
+          <h6>Notice</h6>
+          <small class="rls-date">{{'August 12'}}</small>
+          <p>Gingitsune's translator has retired. The series has been dropped for now.</p>
           </div>
-          <hr>
 
           <div class="status">
 
-            <h6>STATUS</h6>
+            <h6>Status</h6>
 
             <div class="status-card" ng-repeat="item in home.status">
               <div class="{{'status-img ' + item.pic}}"></div>
@@ -39,15 +38,14 @@
             </div>
 
           </div>
+          </div>
         </div>
+
+
+
 
       </div>
 
-      <div class="disqus row">
-        <div class="col-md-8">
-          <hr>
-        </div>
-      </div>
 
     </div>
   </div>
