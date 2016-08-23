@@ -14,7 +14,8 @@
             <h4>{{item.series}} - {{item.chapter}}</h4>
             <hr>
             <a href="{{item.batoto}}" class="btn btn-secondary btn-sm"><i class="fa fa-book"></i> Read</a>
-            <a href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> Download</a>
+            <a ng-hide="{{item.licensed}}" href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> Download</a>
+            <a ng-show="{{item.licensed}}" href="" class="btn btn-secondary btn-sm disabled"><i class="fa fa-download"></i> Licensed</a>
             </div>
           </div>           
         </div>
