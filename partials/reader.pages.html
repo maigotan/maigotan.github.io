@@ -1,3 +1,4 @@
+
 <div id="pages" class="col-md-12 reader-col" ng-keyup="$ctrl.kbCtrl($event.keyCode)" tabindex="-1">
   <img page id="leftPg" num="{{$ctrl.currPg+1}}" ng-src="{{$ctrl.leftPg}}" class="leftpg" ng-hide="$ctrl.spread || $ctrl.pageMode==1">
   <img page id="rightPg" num="{{$ctrl.currPg}}" ng-src="{{$ctrl.rightPg}}" ng-class="{'rightpg':!$ctrl.spread && $ctrl.pageMode==2, 'singlepg':$ctrl.spread || $ctrl.pageMode==1}">
