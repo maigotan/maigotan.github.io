@@ -8,12 +8,14 @@
           <div class="rls" ng-repeat="item in $ctrl.getLatest()">
             <div class="{{'rls-img ' + item.pic}}"></div>
             <div class="rls-text"> 
-            <small class="rls-date">{{item.date}}</small><br>
-            <h4>{{item.series}} - {{item.chapter}}</h4>
-            <hr>
-            <a href="{{item.batoto}}" class="btn btn-secondary btn-sm"><i class="fa fa-book"></i> Read</a>
-            <a ng-hide="{{item.licensed}}" href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> Download</a>
-            <a ng-show="{{item.licensed}}" href="" class="btn btn-secondary btn-sm disabled"><i class="fa fa-download"></i> Licensed</a>
+              <span class="rls-date">{{item.date}}</span>
+              <span class="rls-title">{{item.series}}</span>
+              <span class="rls-rls">{{' - Chapter ' + item.chapter}}</span>
+              <div class="rls-actions">
+                <a href="{{item.batoto}}" class="btn btn-success btn-sm"><i class="fa fa-book"></i> Read</a>
+                <a ng-hide="{{item.licensed}}" href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> DL</a>
+                <a ng-show="{{item.licensed}}" href="" class="btn btn-secondary btn-sm disabled"><i class="fa fa-download"></i> Licensed</a>
+              </div>
             </div>
           </div>           
         </div>
