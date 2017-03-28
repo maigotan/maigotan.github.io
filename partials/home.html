@@ -8,13 +8,13 @@
           <div class="rls" ng-repeat="item in $ctrl.getLatest()">
             <div class="{{'rls-img ' + item.pic}}"></div>
             <div class="rls-text"> 
-              <span class="rls-date">{{item.date}}</span>
+              <div class="rls-date">{{item.date}}</div>
               <span class="rls-title">{{item.series}}</span>
-              <span class="rls-rls">{{' - Chapter ' + item.chapter}}</span>
+              <span class="rls-rls">{{'Chapter ' + item.chapter}}</span>
               <div class="rls-actions">
-                <a href="{{item.batoto}}" class="btn btn-success btn-sm"><i class="fa fa-book"></i> Read</a>
-                <a ng-hide="{{item.licensed}}" href="{{item.mega}}" class="btn btn-secondary btn-sm"><i class="fa fa-download"></i> DL</a>
-                <a ng-show="{{item.licensed}}" href="" class="btn btn-secondary btn-sm disabled"><i class="fa fa-download"></i> Licensed</a>
+                <a href="{{item.batoto}}" class="read-btn btn btn-outline-success btn-sm"><i class="fa fa-book"></i> Read</a>
+                <a ng-hide="{{item.licensed}}" href="{{item.mega}}" class="dl-btn btn btn-secondary btn-sm"><i class="fa fa-download"></i> DL</a>
+                <a ng-show="{{item.licensed}}" href="" class="dl-btn btn btn-secondary btn-sm disabled">Licensed</a>
               </div>
             </div>
           </div>
@@ -22,23 +22,19 @@
 
         <div class="col-md-4">
           <div class="sidebar">
-          <div class="updates">
-          <h6>Notice</h6>
-          <small class="rls-date">{{'December 30'}}</small>
-          <p>New series, new help needed!<br>We need people to help out with putting the translations on the page, aka lettering. You'll need Photoshop. <br><a href="http://webchat.irchighway.net/#maigo">Try out!</a></p>
-          </div>
-
-          <div class="status">
-
-            <h6>Status</h6>
-
-            <div class="status-card" ng-repeat="item in $ctrl.getStatus()">
-              <div class="{{'status-img ' + item.pic}}"></div>
-              {{item.series}} - {{item.chapter}}<br>
-              <em>{{item.status}}</em>
+            <div class="updates">
+              <h6>Notice</h6>
+              <small class="rls-date">{{'December 30'}}</small>
+              <p class="notice-text">New series, new help needed!<br>We need people to help out with putting the translations on the page, aka lettering. You'll need Photoshop. <br><a href="http://webchat.irchighway.net/#maigo">Try out!</a></p>
             </div>
 
-          </div>
+            <div class="status">
+              <h6>Up Next</h6>
+              <div class="status-card" ng-repeat="item in $ctrl.getStatus()">
+                <div class="{{'status-img ' + item.pic}}"></div>
+                <div class="status-line">{{item.series}} - {{item.chapter}}</div>
+              </div>
+            </div>
           </div>
         </div>
 
