@@ -199,13 +199,13 @@ window.chapterData = {
     },
     'Seifuku no Vampiress Lord' :   {
       '8': {
-        date: new Date('Sep 7 2017 10:12:00 GMT-0700'),
+        date: new Date('Sep 7 2017 22:12:00 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/09/08/s/read59b226e692dc3',
         trans: 'Vexed',
         let: 'nijuu'
       },
       '7': {
-        date: new Date('Sep 4 2017 22:45:00 GMT-0700'),
+        date: new Date('Sep 4 2017 11:45:00 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/09/04/s/read59ada99f473d7',
         trans: 'Vexed',
         let: 'nijuu'
