@@ -205,7 +205,7 @@ window.chapterData = {
         let: 'nijuu'
       },
       '7': {
-        date: new Date('Sep 4 2017 11:45:00 GMT-0700'),
+        date: new Date('Sep 4 2017 22:45:00 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/09/04/s/read59ada99f473d7',
         trans: 'Vexed',
         let: 'nijuu'
