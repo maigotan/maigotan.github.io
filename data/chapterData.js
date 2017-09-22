@@ -1,8 +1,14 @@
 window.chapterData = {
   series: {
     'Mahoromi' : {
+      '20': {
+        date: new Date('Sep 21 2017 19:00:00 GMT-0700'),
+        src: 'http://img.bato.to/comics/2017/09/22/m/read59c46f134f135',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
       '19': {
-        date: new Date('Sep 17 2017 18:32:00 GMT-0800'),
+        date: new Date('Sep 17 2017 18:32:00 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/09/18/m/read59bf2151be533',
         trans: 'AnonSpore',
         let: 'Nielle'
