@@ -137,26 +137,32 @@ window.chapterData = {
       }
     },
     'Kannou Sensei' : {
+      '4': {
+        date: new Date('Sep 30 2017 11:50:00 GMT-0700'),
+        src: 'http://img.bato.to/comics/2017/09/30/k/read59cfe78b1617a',
+        trans: 'Haremless',
+        let: 'cranon'
+      },
       '3': {
-        date: new Date('Aug 22 2017 GMT-0800'),
+        date: new Date('Aug 22 2017 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/08/23/k/read599d37d038398',
         trans: 'Haremless',
         let: 'cranon'
       },
       '2': {
-        date: new Date('Aug 07 2017 GMT-0800'),
+        date: new Date('Aug 07 2017 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/08/06/k/read598786c29a485',
         trans: 'Haremless',
         let: 'cranon'
       },
       '1': {
-        date: new Date('Jul 16 2017 GMT-0800'),
+        date: new Date('Jul 16 2017 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/07/17/k/read596c45a82e3c1',
         trans: 'Haremless',
         let: 'cranon'
       },
       '0': {
-        date: new Date('Jul 10 2017 GMT-0800'),
+        date: new Date('Jul 10 2017 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/07/10/k/read5963221dbd4e5',
         trans: 'Haremless',
         let: 'cranon'
