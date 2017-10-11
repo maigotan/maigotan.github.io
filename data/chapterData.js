@@ -123,6 +123,13 @@ window.chapterData = {
       }
     },
     'Spotted Flower' : {
+      '21.5' : {
+        date: new Date('Oct 10 2017 20:00 GMT-0700'),
+        src: 'http://img.bato.to/comics/2017/10/11/s/read59dd892fda3c5',
+        trans: 'AnonSpore',
+        let: 'Nielle',
+        red: 'Nami'
+      },
       '21' : {
         date: new Date('Aug 12 2017 GMT-0800'),
         src: 'http://img.bato.to/comics/2017/08/12/s/read598ebee1c778b',
