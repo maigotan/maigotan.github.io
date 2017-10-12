@@ -182,6 +182,12 @@ window.chapterData = {
       }
     },
     'Mahoutsukai no Yome' : {
+      '41' : {
+        date: new Date('Oct 12 2017 00:05:00 GMT-0700'),
+        src: 'http://img.bato.to/comics/2017/10/12/m/read59df148935eea',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
       '40' : {
         date: new Date('Sep 18 2017 23:35:00 GMT-0700'),
         src: 'http://img.bato.to/comics/2017/09/19/m/read59c0ba713f562',
