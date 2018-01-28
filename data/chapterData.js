@@ -150,6 +150,12 @@ window.chapterData = {
       // }
     },
     'Kannou Sensei' : {
+      '8': {
+        date: new Date('Jan 27 2018 22:30:00 GMT-0800'),
+        src: '/img/releases/kannou/08',
+        trans: 'Haremless',
+        let: 'cranon'
+      },
       '7': {
         date: new Date('Dec 8 2017 18:30:00 GMT-0800'),
         src: '/img/releases/kannou/07',
