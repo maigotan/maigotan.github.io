@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     'Mahoromi' : {
+      '22': {
+        date: new Date('Jan 30 2018 22:20:00 GMT-0800'),
+        src: '/img/releases/mahoromi/22',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
       '21': {
         date: new Date('Nov 17 2017 21:05:00 GMT-0700'),
         src: '/img/releases/mahoromi/21',
