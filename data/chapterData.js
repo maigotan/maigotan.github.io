@@ -224,6 +224,12 @@ window.chapterData = {
       }
     },
     'Mahoutsukai no Yome' : {
+      '44' : {
+        date: new Date('Mar 13 2018 19:45:00 GMT-0800'),
+        src: '/img/releases/mahoyo/44',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
       '43' : {
         date: new Date('Feb 12 2018 19:26:00 GMT-0800'),
         src: '/img/releases/mahoyo/43',
