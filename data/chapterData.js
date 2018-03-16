@@ -244,6 +244,12 @@ window.chapterData = {
       }
     },
     'Seifuku no Vampiress Lord' :   {
+      '11': {
+        date: new Date('Mar 15 2018 19:30:00 GMT-0700'),
+        src: '/img/releases/vampiress/11',
+        trans: 'Vexed',
+        let: 'Nielle, Kiiragi'
+      },
       '10': {
         date: new Date('Nov 30 2017 22:09:00 GMT-0800'),
         src: '/img/releases/vampiress/10',
