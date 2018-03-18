@@ -135,12 +135,18 @@ window.chapterData = {
       // }
     },
     'Spotted Flower' : {
+      '22' : {
+        date: new Date('Mar 17 2018 20:06 GMT-0700'),
+        src: '/img/releases/spoflo/22',
+        trans: 'AnonSpore',
+        let: 'Kiiragi',
+      },
       '21.5' : {
         date: new Date('Oct 10 2017 20:00 GMT-0700'),
         src: '/img/releases/spoflo/21_5',
         trans: 'AnonSpore',
         let: 'Nielle',
-        red: 'Nami'
+        red: 'Nami',
       },
       // '21' : {
       //   date: new Date('Aug 12 2017 GMT-0800'),
