@@ -135,6 +135,12 @@ window.chapterData = {
       // }
     },
     'Spotted Flower' : {
+      '23' : {
+        date: new Date('Mar 24 2018 12:40 GMT-0700'),
+        src: '/img/releases/spoflo/23',
+        trans: 'AnonSpore',
+        let: 'Cranon',
+      },
       '22' : {
         date: new Date('Mar 17 2018 20:06 GMT-0700'),
         src: '/img/releases/spoflo/22',
