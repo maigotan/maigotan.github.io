@@ -1,5 +1,32 @@
 window.chapterData = {
   series: {
+    'Mahoutsukai no Yome' : {
+      '45' : {
+        date: new Date('May 2 2018 23:25:00 GMT-0700'),
+        src: '/img/releases/mahoyo/45',
+        trans: 'AnonSpore',
+        let: 'Nielle',
+        red: 'myran'
+      },      
+      '44' : {
+        date: new Date('Mar 13 2018 19:45:00 GMT-0800'),
+        src: '/img/releases/mahoyo/44',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
+      '43' : {
+        date: new Date('Feb 12 2018 19:26:00 GMT-0800'),
+        src: '/img/releases/mahoyo/43',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      },
+      '42' : {
+        date: new Date('Dec 19 2017 00:00:00 GMT-0700'),
+        src: '/img/releases/mahoyo/42',
+        trans: 'AnonSpore',
+        let: 'Nielle'
+      }
+    },
     'Mahoromi' : {
       '22': {
         date: new Date('Jan 30 2018 22:20:00 GMT-0800'),
@@ -233,26 +260,6 @@ window.chapterData = {
         src: '/img/releases/kannou/00',
         trans: 'Haremless',
         let: 'cranon'
-      }
-    },
-    'Mahoutsukai no Yome' : {
-      '44' : {
-        date: new Date('Mar 13 2018 19:45:00 GMT-0800'),
-        src: '/img/releases/mahoyo/44',
-        trans: 'AnonSpore',
-        let: 'Nielle'
-      },
-      '43' : {
-        date: new Date('Feb 12 2018 19:26:00 GMT-0800'),
-        src: '/img/releases/mahoyo/43',
-        trans: 'AnonSpore',
-        let: 'Nielle'
-      },
-      '42' : {
-        date: new Date('Dec 19 2017 00:00:00 GMT-0700'),
-        src: '/img/releases/mahoyo/42',
-        trans: 'AnonSpore',
-        let: 'Nielle'
       }
     },
     'Seifuku no Vampiress Lord' :   {
