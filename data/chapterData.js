@@ -1,6 +1,13 @@
 window.chapterData = {
   series: {
     'Mahoutsukai no Yome' : {
+      '46' : {
+        date: new Date('May 20 2018 13:30:00 GMT-0700'),
+        src: '/img/releases/mahoyo/46',
+        trans: 'AnonSpore',
+        let: 'Nielle',
+        red: 'myran'
+      }, 
       '45' : {
         date: new Date('May 2 2018 23:25:00 GMT-0700'),
         src: '/img/releases/mahoyo/45',
