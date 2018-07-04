@@ -207,7 +207,7 @@ window.chapterData = {
 	src: '/img/releases/kannou/11',
 	trans: 'Haremless', 
 	let: 'cranon'
-      }
+      },
       '10.5': {
         date: new Date('May 19 2018 18:30:00 GMT-0700'),
         src: '/img/releases/kannou/10_5',
