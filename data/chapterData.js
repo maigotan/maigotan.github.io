@@ -6,7 +6,7 @@ window.chapterData = {
         src: '/img/releases/mahoyo/47',
         trans: 'AnonSpore',
         let: 'Nielle',
-        red: 'myran',
+        red: 'myran, kukupa, Crosshairs',
       },
       '46' : {
         date: new Date('May 20 2018 13:30:00 GMT-0700'),
