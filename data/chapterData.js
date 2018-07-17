@@ -268,6 +268,12 @@ window.chapterData = {
       }
     },
     'Seifuku no Vampiress Lord' :   {
+      '12': {
+        date: new Date('Jul 16 2018 20:54:00 GMT-0700'),
+        src: '/img/releases/vampiress/12',
+        trans: 'Vexed',
+        let: 'kukupa'
+      },
       '11': {
         date: new Date('Mar 15 2018 19:30:00 GMT-0700'),
         src: '/img/releases/vampiress/11',
