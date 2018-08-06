@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     'Mahoutsukai no Yome' : {
+      '48' : {
+        date: new Date('Aug 05 2018 20:30:00 GMT-0700'),
+        src: '/img/releases/mahoyo/48',
+        let: 'Nielle',
+        red: 'myran, kukupa, Crosshairs',
+      },
       '47' : {
         date: new Date('July 05 2018 19:30:00 GMT-0700'),
         src: '/img/releases/mahoyo/47',
@@ -12,27 +18,6 @@ window.chapterData = {
         src: '/img/releases/mahoyo/46',
         let: 'Nielle',
         red: 'myran'
-      }, 
-      '45' : {
-        date: new Date('May 2 2018 23:25:00 GMT-0700'),
-        src: '/img/releases/mahoyo/45',
-        let: 'Nielle',
-        red: 'myran'
-      },      
-      '44' : {
-        date: new Date('Mar 13 2018 19:45:00 GMT-0800'),
-        src: '/img/releases/mahoyo/44',
-        let: 'Nielle'
-      },
-      '43' : {
-        date: new Date('Feb 12 2018 19:26:00 GMT-0800'),
-        src: '/img/releases/mahoyo/43',
-        let: 'Nielle'
-      },
-      '42' : {
-        date: new Date('Dec 19 2017 00:00:00 GMT-0700'),
-        src: '/img/releases/mahoyo/42',
-        let: 'Nielle'
       }
     },
     'Mahoromi' : {
