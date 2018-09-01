@@ -1,35 +1,41 @@
 window.chapterData = {
   series: {
-    'Mahoutsukai no Yome' : {
-      '48' : {
-        date: new Date('Aug 05 2018 20:30:00 GMT-0700'),
-        src: '/img/releases/mahoyo/48',
-        let: 'Nielle',
-        red: 'myran, kukupa, Crosshairs',
+    "Mahoutsukai no Yome": {
+      "49": {
+        date: new Date("Sep 01 2018 11:22:00 GMT-0700"),
+        src: "/img/releases/mahoyo/49",
+        let: "Nielle",
+        red: "myran",
       },
-      '47' : {
-        date: new Date('July 05 2018 19:30:00 GMT-0700'),
-        src: '/img/releases/mahoyo/47',
-        let: 'Nielle',
-        red: 'myran, kukupa, Crosshairs',
+      "48": {
+        date: new Date("Aug 05 2018 20:30:00 GMT-0700"),
+        src: "/img/releases/mahoyo/48",
+        let: "Nielle",
+        red: "myran, kukupa, Crosshairs",
       },
-      '46' : {
-        date: new Date('May 20 2018 13:30:00 GMT-0700'),
-        src: '/img/releases/mahoyo/46',
-        let: 'Nielle',
-        red: 'myran'
-      }
+      "47": {
+        date: new Date("July 05 2018 19:30:00 GMT-0700"),
+        src: "/img/releases/mahoyo/47",
+        let: "Nielle",
+        red: "myran, kukupa, Crosshairs",
+      },
+      "46": {
+        date: new Date("May 20 2018 13:30:00 GMT-0700"),
+        src: "/img/releases/mahoyo/46",
+        let: "Nielle",
+        red: "myran",
+      },
     },
-    'Mahoromi' : {
-      '22': {
-        date: new Date('Jan 30 2018 22:20:00 GMT-0800'),
-        src: '/img/releases/mahoromi/22',
-        let: 'Nielle'
+    Mahoromi: {
+      "22": {
+        date: new Date("Jan 30 2018 22:20:00 GMT-0800"),
+        src: "/img/releases/mahoromi/22",
+        let: "Nielle",
       },
-      '21': {
-        date: new Date('Nov 17 2017 21:05:00 GMT-0700'),
-        src: '/img/releases/mahoromi/21',
-        let: 'Nielle'
+      "21": {
+        date: new Date("Nov 17 2017 21:05:00 GMT-0700"),
+        src: "/img/releases/mahoromi/21",
+        let: "Nielle",
       },
       // '20': {
       //   date: new Date('Sep 21 2017 19:00:00 GMT-0700'),
@@ -132,22 +138,22 @@ window.chapterData = {
       //   let: 'Nielle'
       // }
     },
-    'Spotted Flower' : {
-      '23' : {
-        date: new Date('Mar 24 2018 12:40 GMT-0700'),
-        src: '/img/releases/spoflo/23',
-        let: 'Cranon',
+    "Spotted Flower": {
+      "23": {
+        date: new Date("Mar 24 2018 12:40 GMT-0700"),
+        src: "/img/releases/spoflo/23",
+        let: "Cranon",
       },
-      '22' : {
-        date: new Date('Mar 17 2018 20:06 GMT-0700'),
-        src: '/img/releases/spoflo/22',
-        let: 'Kiiragi',
+      "22": {
+        date: new Date("Mar 17 2018 20:06 GMT-0700"),
+        src: "/img/releases/spoflo/22",
+        let: "Kiiragi",
       },
-      '21.5' : {
-        date: new Date('Oct 10 2017 20:00 GMT-0700'),
-        src: '/img/releases/spoflo/21_5',
-        let: 'Nielle',
-        red: 'Nami',
+      "21.5": {
+        date: new Date("Oct 10 2017 20:00 GMT-0700"),
+        src: "/img/releases/spoflo/21_5",
+        let: "Nielle",
+        red: "Nami",
       },
       // '21' : {
       //   date: new Date('Aug 12 2017 GMT-0800'),
@@ -160,129 +166,129 @@ window.chapterData = {
       //   let: 'cranon'
       // }
     },
-    'Kannou Sensei' : {
-      '13.1': {
-        date: new Date('August 15 2018 23:06:00 GMT-0700'),
-        src: '/img/releases/kannou/13_1',
-        trans: 'Haremless', 
-        let: 'cranon',
-        red: 'Crosshairs'
+    "Kannou Sensei": {
+      "13.1": {
+        date: new Date("August 15 2018 23:06:00 GMT-0700"),
+        src: "/img/releases/kannou/13_1",
+        trans: "Haremless",
+        let: "cranon",
+        red: "Crosshairs",
       },
-      '13': {
-        date: new Date('August 2 2018 19:00:00 GMT-0700'),
-        src: '/img/releases/kannou/13',
-        trans: 'Haremless', 
-        let: 'cranon'
+      "13": {
+        date: new Date("August 2 2018 19:00:00 GMT-0700"),
+        src: "/img/releases/kannou/13",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '12': {
-        date: new Date('July 12 2018 21:47:00 GMT-0700'),
-        src: '/img/releases/kannou/12',
-        trans: 'Haremless', 
-        let: 'cranon'
+      "12": {
+        date: new Date("July 12 2018 21:47:00 GMT-0700"),
+        src: "/img/releases/kannou/12",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '11': {
-        date: new Date('July 03 2018 22:00:00 GMT-0800'),
-        src: '/img/releases/kannou/11',
-        trans: 'Haremless', 
-        let: 'cranon'
+      "11": {
+        date: new Date("July 03 2018 22:00:00 GMT-0800"),
+        src: "/img/releases/kannou/11",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '10.5': {
-        date: new Date('May 19 2018 18:30:00 GMT-0700'),
-        src: '/img/releases/kannou/10_5',
-        trans: 'Haremless',
-        let: 'cranon'
+      "10.5": {
+        date: new Date("May 19 2018 18:30:00 GMT-0700"),
+        src: "/img/releases/kannou/10_5",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '10': {
-        date: new Date('May 19 2018 18:30:00 GMT-0700'),
-        src: '/img/releases/kannou/10',
-        trans: 'Haremless',
-        let: 'cranon'
+      "10": {
+        date: new Date("May 19 2018 18:30:00 GMT-0700"),
+        src: "/img/releases/kannou/10",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '9': {
-        date: new Date('Mar 10 2018 17:25:00 GMT-0800'),
-        src: '/img/releases/kannou/09',
-        trans: 'Haremless',
-        let: 'cranon'
+      "9": {
+        date: new Date("Mar 10 2018 17:25:00 GMT-0800"),
+        src: "/img/releases/kannou/09",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '8': {
-        date: new Date('Jan 29 2018 21:45:00 GMT-0800'),
-        src: '/img/releases/kannou/08',
-        trans: 'Haremless',
-        let: 'cranon'
+      "8": {
+        date: new Date("Jan 29 2018 21:45:00 GMT-0800"),
+        src: "/img/releases/kannou/08",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '7': {
-        date: new Date('Dec 8 2017 18:30:00 GMT-0800'),
-        src: '/img/releases/kannou/07',
-        trans: 'Haremless',
-        let: 'cranon'
+      "7": {
+        date: new Date("Dec 8 2017 18:30:00 GMT-0800"),
+        src: "/img/releases/kannou/07",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '6': {
-        date: new Date('Nov 26 2017 19:50:00 GMT-0800'),
-        src: '/img/releases/kannou/06',
-        trans: 'Haremless',
-        let: 'cranon'
+      "6": {
+        date: new Date("Nov 26 2017 19:50:00 GMT-0800"),
+        src: "/img/releases/kannou/06",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '5': {
-        date: new Date('Oct 26 2017 22:21:00 GMT-0700'),
-        src: '/img/releases/kannou/05',
-        trans: 'Haremless',
-        let: 'cranon'
+      "5": {
+        date: new Date("Oct 26 2017 22:21:00 GMT-0700"),
+        src: "/img/releases/kannou/05",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '4.5': {
-        date: new Date('Oct 09 2017 19:10:00 GMT-0700'),
-        src: '/img/releases/kannou/04_5',
-        trans: 'Haremless',
-        let: 'cranon'
+      "4.5": {
+        date: new Date("Oct 09 2017 19:10:00 GMT-0700"),
+        src: "/img/releases/kannou/04_5",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '4': {
-        date: new Date('Sep 30 2017 11:50:00 GMT-0700'),
-        src: '/img/releases/kannou/04',
-        trans: 'Haremless',
-        let: 'cranon'
+      "4": {
+        date: new Date("Sep 30 2017 11:50:00 GMT-0700"),
+        src: "/img/releases/kannou/04",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '3': {
-        date: new Date('Aug 22 2017 GMT-0700'),
-        src: '/img/releases/kannou/03',
-        trans: 'Haremless',
-        let: 'cranon'
+      "3": {
+        date: new Date("Aug 22 2017 GMT-0700"),
+        src: "/img/releases/kannou/03",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '2': {
-        date: new Date('Aug 07 2017 GMT-0700'),
-        src: '/img/releases/kannou/02',
-        trans: 'Haremless',
-        let: 'cranon'
+      "2": {
+        date: new Date("Aug 07 2017 GMT-0700"),
+        src: "/img/releases/kannou/02",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '1': {
-        date: new Date('Jul 16 2017 GMT-0700'),
-        src: '/img/releases/kannou/01',
-        trans: 'Haremless',
-        let: 'cranon'
+      "1": {
+        date: new Date("Jul 16 2017 GMT-0700"),
+        src: "/img/releases/kannou/01",
+        trans: "Haremless",
+        let: "cranon",
       },
-      '0': {
-        date: new Date('Jul 10 2017 GMT-0700'),
-        src: '/img/releases/kannou/00',
-        trans: 'Haremless',
-        let: 'cranon'
-      }
+      "0": {
+        date: new Date("Jul 10 2017 GMT-0700"),
+        src: "/img/releases/kannou/00",
+        trans: "Haremless",
+        let: "cranon",
+      },
     },
-    'Seifuku no Vampiress Lord' :   {
-      '12': {
-        date: new Date('Jul 16 2018 20:54:00 GMT-0700'),
-        src: '/img/releases/vampiress/12',
-        trans: 'Vexed',
-        let: 'kukupa'
+    "Seifuku no Vampiress Lord": {
+      "12": {
+        date: new Date("Jul 16 2018 20:54:00 GMT-0700"),
+        src: "/img/releases/vampiress/12",
+        trans: "Vexed",
+        let: "kukupa",
       },
-      '11': {
-        date: new Date('Mar 15 2018 19:30:00 GMT-0700'),
-        src: '/img/releases/vampiress/11',
-        trans: 'Vexed',
-        let: 'Nielle, Kiiragi'
+      "11": {
+        date: new Date("Mar 15 2018 19:30:00 GMT-0700"),
+        src: "/img/releases/vampiress/11",
+        trans: "Vexed",
+        let: "Nielle, Kiiragi",
       },
-      '10': {
-        date: new Date('Nov 30 2017 22:09:00 GMT-0800'),
-        src: '/img/releases/vampiress/10',
-        trans: 'Vexed',
-        let: 'nijuu'
+      "10": {
+        date: new Date("Nov 30 2017 22:09:00 GMT-0800"),
+        src: "/img/releases/vampiress/10",
+        trans: "Vexed",
+        let: "nijuu",
       },
       // '9': {
       //   date: new Date('Oct 16 2017 22:49:00 GMT-0700'),
@@ -309,19 +315,13 @@ window.chapterData = {
       //   let: 'nijuu'
       // }
     },
-    'Prunus Girl' : {
-    },
-    'Boku wa Tomodachi ga Sukunai' : {
-    },
-    'Tasogare Otome x Amnesia' : {
-    },
-    'Natsu no Zenjitsu' : {
-    },
-    'Chimoguri Ringo to Kingyobachi Otoko' : {
-    },
-    'Ashita Dorobou' : {
-    },
-    'Benten Rock Yuu' : {
+    "Prunus Girl": {},
+    "Boku wa Tomodachi ga Sukunai": {},
+    "Tasogare Otome x Amnesia": {},
+    "Natsu no Zenjitsu": {},
+    "Chimoguri Ringo to Kingyobachi Otoko": {},
+    "Ashita Dorobou": {},
+    "Benten Rock Yuu": {
       // '1': {
       //   date: new Date('Dec 29 2014'),
       //   src:'http://img.bato.to/comics/2014/12/29/b/read54a0fd526e61b',
@@ -329,31 +329,23 @@ window.chapterData = {
       //   let: 'RelM'
       // }
     },
-    'Boku ni Koisuru Mechanical' : {
-    },
-    'Choku!' : {
-    },
-    'Dekoboko Girlish' : {
-    },
-    'Hajiotsu' : {
-    },
-    'Gisèle Alain' : {
-    },
-    'Himawari' : {
-    },
-    'Kekkon Yubiwa Monogatari' : {
-    },
-    'Gonensei' : {
-    },
-    'Hitogatana' : {
+    "Boku ni Koisuru Mechanical": {},
+    "Choku!": {},
+    "Dekoboko Girlish": {},
+    Hajiotsu: {},
+    "Gisèle Alain": {},
+    Himawari: {},
+    "Kekkon Yubiwa Monogatari": {},
+    Gonensei: {},
+    Hitogatana: {
       // '1': {
       //   date: new Date('Jun 14 2011 GMT-800'),
-      //   src:'http://img.bato.to/comics/2011/06/14/h/read4df74fc47ec30/Credits.jpg', 
+      //   src:'http://img.bato.to/comics/2011/06/14/h/read4df74fc47ec30/Credits.jpg',
       //   trans: 'umeboshi',
       //   let: 'RelM'
       // }
     },
-    'Yume Midokoro (oneshot)' : {
+    "Yume Midokoro (oneshot)": {
       // '1': {
       //   date: new Date('Feb 24 2012'),
       //   src: 'http://img.bato.to/comics/2012/02/25/y/read4f4884654753a',
@@ -361,11 +353,9 @@ window.chapterData = {
       //   let: 'aznn3ss'
       // }
     },
-    'Ga-rei' : {
-    },
-    'Hakoiri Drops' : {
-    },
-    'Straw' : {
+    "Ga-rei": {},
+    "Hakoiri Drops": {},
+    Straw: {
       // '1': {
       //   date: new Date('Aug 17 2015'),
       //   src: 'http://img.bato.to/comics/2015/08/17/s/read55d20d3f2c07a',
@@ -373,11 +363,9 @@ window.chapterData = {
       //   let: 'Yakkul'
       // }
     },
-    'Paradox Blue' : {
-    },
-    'OA' : {
-    },
-    'Nonscale' : {
+    "Paradox Blue": {},
+    OA: {},
+    Nonscale: {
       // '6': {
       //   date: new Date('Nov 01 2014 GMT-0800'),
       //   src: 'http://img.bato.to/comics/2014/11/02/n/read5455af81abd24',
@@ -385,19 +373,13 @@ window.chapterData = {
       //   let: '?',
       // }
     },
-    'Nejimakiboshi to Aoi Sora' : {
-    },
-    'Tetsugaku Letra' : {
-    },
-    'Tokyo ESP' : {
-    },
-    'Taiyou no Ie' : {
-    },
-    'Mardock Scramble' : {
-    },
-    'Yume Tsukai' : {
-    },
-    'Oh, my sweet alien!' : {
+    "Nejimakiboshi to Aoi Sora": {},
+    "Tetsugaku Letra": {},
+    "Tokyo ESP": {},
+    "Taiyou no Ie": {},
+    "Mardock Scramble": {},
+    "Yume Tsukai": {},
+    "Oh, my sweet alien!": {
       // '3': {
       //   date: new Date('June 02 2016 GMT-800'),
       //   src: 'http://img.bato.to/comics/2012/09/06/o/read50491d5702710',
@@ -415,39 +397,29 @@ window.chapterData = {
       //   src: 'http://img.bato.to/comics/2012/09/03/o/read50453a2f0d29a',
       //   trans: 'Yakkul',
       //   let: 'Yakkul'
-      // }      
+      // }
     },
-    'Amaama to Inazuma' : {
-    },
-    'Ashita wa Kyouso-sama (oneshot)' : {
+    "Amaama to Inazuma": {},
+    "Ashita wa Kyouso-sama (oneshot)": {
       // '1': {
       //   date: new Date('Dec 07 2015 GMT-0800'),
       //   src: 'http://img.bato.to/comics/2015/12/08/a/read566671fd9606e',
       //   let: 'Nielle'
       // }
     },
-    'Flying Witch (oneshot)' : {
+    "Flying Witch (oneshot)": {
       // '1': {
       //   date: new Date('Jul 09 2017 GMT-0800')
       // }
     },
-    'Reversible!' : {
-    },
-    'Futari no Renai Shoka' : {
-    },
-    'Gingitsune' : {
-    },
-    'Hero Mask' : {
-    },
-    'Kiniro Mosaic' : {
-    },
-    'Jigokuren - LOVE in the HELL' : {
-    },
-    '18 Rin': {
-    },      
-    'Katsute Kami Datta Kemonotachi e' : {
-    },
-    'Sore ga Kanojo no Seigi nara' : {
-    },
-  }
+    "Reversible!": {},
+    "Futari no Renai Shoka": {},
+    Gingitsune: {},
+    "Hero Mask": {},
+    "Kiniro Mosaic": {},
+    "Jigokuren - LOVE in the HELL": {},
+    "18 Rin": {},
+    "Katsute Kami Datta Kemonotachi e": {},
+    "Sore ga Kanojo no Seigi nara": {},
+  },
 }
