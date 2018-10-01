@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "50": {
+        date: new Date("Oct 01 2018 11:43:00 GMT-0700"),
+        src: "/img/releases/mahoyo/50",
+        let: "Nielle",
+        red: "myran, Velosiped",
+      },
       "49": {
         date: new Date("Sep 01 2018 11:22:00 GMT-0700"),
         src: "/img/releases/mahoyo/49",
