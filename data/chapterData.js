@@ -25,32 +25,14 @@ window.chapterData = {
         let: "Nielle",
         red: "myran, Velosiped",
       },
-      "49": {
-        date: new Date("Sep 01 2018 11:22:00 GMT-0700"),
-        src: "/img/releases/mahoyo/49",
-        let: "Nielle",
-        red: "myran",
-      },
-      "48": {
-        date: new Date("Aug 05 2018 20:30:00 GMT-0700"),
-        src: "/img/releases/mahoyo/48",
-        let: "Nielle",
-        red: "myran, kukupa, Crosshairs",
-      },
-      "47": {
-        date: new Date("July 05 2018 19:30:00 GMT-0700"),
-        src: "/img/releases/mahoyo/47",
-        let: "Nielle",
-        red: "myran, kukupa, Crosshairs",
-      },
-      "46": {
-        date: new Date("May 20 2018 13:30:00 GMT-0700"),
-        src: "/img/releases/mahoyo/46",
-        let: "Nielle",
-        red: "myran",
-      },
     },
     "Kannou Sensei": {
+      "17": {
+        date: new Date("February 05 2019 23:00:00 GMT-0800"),
+        src: "/img/releases/kannou/17",
+        trans: "Haremless",
+        let: "cranon",
+      },
       "16": {
         date: new Date("December 27 2018 18:41:00 GMT-0800"),
         src: "/img/releases/kannou/16",
