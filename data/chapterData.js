@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "55": {
+        date: new Date("April 1 2019 12:26:00 GMT-0800"),
+        src: "/img/releases/mahoyo/55",
+        let: "Nielle",
+        red: "myran",
+      },
       "54": {
         date: new Date("Feb 20 2019 22:00:00 GMT-0800"),
         src: "/img/releases/mahoyo/54",
@@ -33,6 +39,12 @@ window.chapterData = {
       },
     },
     "Kannou Sensei": {
+      "18.1": {
+        date: new Date("April 1 2019 12:26:00 GMT-0800"),
+        src: "/img/releases/kannou/18_1",
+        trans: "Haremless",
+        let: "cranon",
+      },
       "18": {
         date: new Date("March 17 2019 10:49:00 GMT-0700"),
         src: "/img/releases/kannou/18",
