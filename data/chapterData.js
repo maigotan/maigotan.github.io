@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "57": {
+        date: new Date("June 27 2019 21:32:00 GMT-0800"),
+        src: "/img/releases/mahoyo/57",
+        let: "Nielle",
+        red: "myran, kukupa, Crosshairs",
+      },
       "56": {
         date: new Date("May 16 2019 21:00:00 GMT-0800"),
         src: "/img/releases/mahoyo/56",
@@ -12,36 +18,6 @@ window.chapterData = {
         src: "/img/releases/mahoyo/55",
         let: "Nielle",
         red: "myran",
-      },
-      "54": {
-        date: new Date("Feb 20 2019 22:00:00 GMT-0800"),
-        src: "/img/releases/mahoyo/54",
-        let: "Nielle",
-        red: "myran",
-      },
-      "53": {
-        date: new Date("Jan 16 2019 23:04:00 GMT-0800"),
-        src: "/img/releases/mahoyo/53",
-        let: "Nielle",
-        red: "myran, cranon",
-      },
-      "52": {
-        date: new Date("Dec 18 2018 22:09:00 GMT-0800"),
-        src: "/img/releases/mahoyo/52",
-        let: "Nielle",
-        red: "kukupa",
-      },
-      "51": {
-        date: new Date("Nov 11 2018 18:14:00 GMT-0800"),
-        src: "/img/releases/mahoyo/51",
-        let: "Nielle",
-        red: "myran, kukupa",
-      },
-      "50": {
-        date: new Date("Oct 01 2018 11:43:00 GMT-0700"),
-        src: "/img/releases/mahoyo/50",
-        let: "Nielle",
-        red: "myran, Velosiped",
       },
     },
     "Kannou Sensei": {
@@ -196,106 +172,6 @@ window.chapterData = {
         src: "/img/releases/mahoromi/21",
         let: "Nielle",
       },
-      // '20': {
-      //   date: new Date('Sep 21 2017 19:00:00 GMT-0700'),
-      //   src: 'http://img.bato.to/comics/2017/09/22/m/read59c46f134f135',
-      //   let: 'Nielle'
-      // },
-      // '19': {
-      //   date: new Date('Sep 17 2017 18:32:00 GMT-0700'),
-      //   src: 'http://img.bato.to/comics/2017/09/18/m/read59bf2151be533',
-      //   let: 'Nielle'
-      // },
-      // '18': {
-      //   date: new Date('Jul 10 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/07/10/m/read5963187462456',
-      //   let: 'cranon'
-      // },
-      // '17': {
-      //   date: new Date('Jun 13 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/06/14/m/read5940a3b165763',
-      //   let: 'Nielle'
-      // },
-      // '16': {
-      //   date: new Date('Mar 28 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/03/29/m/read58db1fee39584',
-      //   let: 'Nielle'
-      // },
-      // '15': {
-      //   date: new Date('Mar 27 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/03/28/m/read58d9f96682d15',
-      //   let: 'Nielle'
-      // },
-      // '14': {
-      //   date: new Date('Mar 09 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/03/10/m/read58c24c598c4a6',
-      //   let: 'Nielle'
-      // },
-      // '13': {
-      //   date: new Date('Feb 22 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/02/23/m/read58ae5ddfcf589',
-      //   let: 'Nielle'
-      // },
-      // '12': {
-      //   date: new Date('Feb 09 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/02/10/m/read589d5f1fef8a9',
-      //   let: 'Nielle'
-      // },
-      // '11': {
-      //   date: new Date('Jan 26 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/26/m/read5889a4b940538',
-      //   let: 'Nielle'
-      // },
-      // '10': {
-      //   date: new Date('Jan 18 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/18/m/read587f185ddf4de',
-      //   let: 'Nielle'
-      // },
-      // '9': {
-      //   date: new Date('Jan 14 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/14/m/read5879eab73d38f',
-      //   let: 'Nielle'
-      // },
-      // '8': {
-      //   date: new Date('Jan 13 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/13/m/read58788ae72bacf',
-      //   let: 'Nielle'
-      // },
-      // '7': {
-      //   date: new Date('Jan 11 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/11/m/read5876658488be0',
-      //   let: 'Nielle'
-      // },
-      // '6': {
-      //   date: new Date('Jan 07 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/07/m/read58709d77824fd',
-      //   let: 'Nielle'
-      // },
-      // '5': {
-      //   date: new Date('Jan 05 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/05/m/read586e050a85474',
-      //   let: 'Nielle'
-      // },
-      // '4': {
-      //   date: new Date('Jan 04 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/04/m/read586cc6ab51029',
-      //   let: 'Nielle'
-      // },
-      // '3': {
-      //   date: new Date('Jan 04 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/04/m/read586cc676591df',
-      //   let: 'Nielle'
-      // },
-      // '2': {
-      //   date: new Date('Dec 30 2016 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2016/12/31/m/read586715cc7dad7',
-      //   let: 'Nielle'
-      // },
-      // '1': {
-      //   date: new Date('Dec 30 2016 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/01/04/m/read586cc6569d44e',
-      //   let: 'Nielle'
-      // }
     },
     "Spotted Flower": {
       "23": {
@@ -303,71 +179,20 @@ window.chapterData = {
         src: "/img/releases/spoflo/23",
         let: "Cranon",
       },
-      "22": {
-        date: new Date("Mar 17 2018 20:06 GMT-0700"),
-        src: "/img/releases/spoflo/22",
-        let: "Kiiragi",
-      },
-      "21.5": {
-        date: new Date("Oct 10 2017 20:00 GMT-0700"),
-        src: "/img/releases/spoflo/21_5",
-        let: "Nielle",
-        red: "Nami",
-      },
-      // '21' : {
-      //   date: new Date('Aug 12 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/08/12/s/read598ebee1c778b',
-      //   let: 'Nielle'
-      // },
-      // '20.5' : {
-      //   date: new Date('Jul 06 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/06/03/s/read593278754ca38',
-      //   let: 'cranon'
-      // }
     },
     "Seifuku no Vampiress Lord": {
+      "13": {
+        date: new Date("May 09 2019 12:00:00 GMT-0800"),
+        src: "/img/releases/vampiress/13",
+        trans: "Vexed",
+        let: "Crosshairs",
+      },
       "12": {
         date: new Date("Jul 16 2018 20:54:00 GMT-0700"),
         src: "/img/releases/vampiress/12",
         trans: "Vexed",
         let: "kukupa",
       },
-      "11": {
-        date: new Date("Mar 15 2018 19:30:00 GMT-0700"),
-        src: "/img/releases/vampiress/11",
-        trans: "Vexed",
-        let: "Nielle, Kiiragi",
-      },
-      "10": {
-        date: new Date("Nov 30 2017 22:09:00 GMT-0800"),
-        src: "/img/releases/vampiress/10",
-        trans: "Vexed",
-        let: "nijuu",
-      },
-      // '9': {
-      //   date: new Date('Oct 16 2017 22:49:00 GMT-0700'),
-      //   src: 'http://img.bato.to/comics/2017/10/17/s/read59e59a86cda83',
-      //   trans: 'Vexed',
-      //   let: 'nijuu'
-      // },
-      // '8': {
-      //   date: new Date('Sep 7 2017 22:12:00 GMT-0700'),
-      //   src: 'http://img.bato.to/comics/2017/09/08/s/read59b226e692dc3',
-      //   trans: 'Vexed',
-      //   let: 'nijuu'
-      // },
-      // '7': {
-      //   date: new Date('Sep 4 2017 11:45:00 GMT-0700'),
-      //   src: 'http://img.bato.to/comics/2017/09/04/s/read59ada99f473d7',
-      //   trans: 'Vexed',
-      //   let: 'nijuu'
-      // },
-      // '6': {
-      //   date: new Date('Jul 1 2017 GMT-0800'),
-      //   src: 'http://img.bato.to/comics/2017/06/29/s/read595478492595d',
-      //   trans: 'Vexed',
-      //   let: 'nijuu'
-      // }
     },
     "Prunus Girl": {},
     "Boku wa Tomodachi ga Sukunai": {},
