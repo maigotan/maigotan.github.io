@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "58": {
+        date: new Date("July 25 2019 20:28:00 GMT-0800"),
+        src: "/img/releases/mahoyo/58",
+        let: "Nielle",
+        red: "kukupa, Crosshairs",
+      },
       "57": {
         date: new Date("June 27 2019 21:32:00 GMT-0800"),
         src: "/img/releases/mahoyo/57",
