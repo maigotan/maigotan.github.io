@@ -27,6 +27,12 @@ window.chapterData = {
       },
     },
     "Kannou Sensei": {
+      "20": {
+        date: new Date("August 27 2019 19:00:00 GMT-0800"),
+        src: "/img/releases/kannou/20",
+        trans: "Haremless",
+        let: "cranon",
+      },
       "19": {
         date: new Date("July 3 2019 17:10:00 GMT-0800"),
         src: "/img/releases/kannou/19",
