@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "61": {
+        date: new Date("November 12 2019 22:07:00 GMT-0800"),
+        src: "/img/releases/mahoyo/61",
+        let: "Nielle",
+        red: "kukupa",
+      },
       "60": {
         date: new Date("October 6 2019 16:14:00 GMT-0800"),
         src: "/img/releases/mahoyo/60",
@@ -12,31 +18,7 @@ window.chapterData = {
         src: "/img/releases/mahoyo/59",
         let: "Nielle",
         red: "kukupa",
-      },
-      "58": {
-        date: new Date("July 25 2019 20:28:00 GMT-0800"),
-        src: "/img/releases/mahoyo/58",
-        let: "Nielle",
-        red: "kukupa, Crosshairs",
-      },
-      "57": {
-        date: new Date("June 27 2019 21:32:00 GMT-0800"),
-        src: "/img/releases/mahoyo/57",
-        let: "Nielle",
-        red: "myran, kukupa, Crosshairs",
-      },
-      "56": {
-        date: new Date("May 16 2019 21:00:00 GMT-0800"),
-        src: "/img/releases/mahoyo/56",
-        let: "Nielle",
-        red: "myran",
-      },
-      "55": {
-        date: new Date("April 1 2019 12:26:00 GMT-0800"),
-        src: "/img/releases/mahoyo/55",
-        let: "Nielle",
-        red: "myran",
-      },
+      }
     },
     "Kannou Sensei": {
       "21": {
