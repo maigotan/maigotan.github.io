@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "63": {
+        date: new Date("February 9 2020 09:46:00 GMT-0800"),
+        src: "/img/releases/mahoyo/63",
+        let: "Nielle",
+        red: "kukupa",
+      },
       "62": {
         date: new Date("December 21 2019 16:36:00 GMT-0800"),
         src: "/img/releases/mahoyo/62",
@@ -10,12 +16,6 @@ window.chapterData = {
       "61": {
         date: new Date("November 12 2019 22:07:00 GMT-0800"),
         src: "/img/releases/mahoyo/61",
-        let: "Nielle",
-        red: "kukupa",
-      },
-      "60": {
-        date: new Date("October 6 2019 16:14:00 GMT-0800"),
-        src: "/img/releases/mahoyo/60",
         let: "Nielle",
         red: "kukupa",
       }
@@ -179,39 +179,9 @@ window.chapterData = {
         let: "cranon",
       },
     },
-    Mahoromi: {
-      "22": {
-        date: new Date("Jan 30 2018 22:20:00 GMT-0800"),
-        src: "/img/releases/mahoromi/22",
-        let: "Nielle",
-      },
-      "21": {
-        date: new Date("Nov 17 2017 21:05:00 GMT-0700"),
-        src: "/img/releases/mahoromi/21",
-        let: "Nielle",
-      },
-    },
-    "Spotted Flower": {
-      "23": {
-        date: new Date("Mar 24 2018 12:40 GMT-0700"),
-        src: "/img/releases/spoflo/23",
-        let: "Cranon",
-      },
-    },
-    "Seifuku no Vampiress Lord": {
-      "13": {
-        date: new Date("May 09 2019 12:00:00 GMT-0800"),
-        src: "/img/releases/vampiress/13",
-        trans: "Vexed",
-        let: "Crosshairs",
-      },
-      "12": {
-        date: new Date("Jul 16 2018 20:54:00 GMT-0700"),
-        src: "/img/releases/vampiress/12",
-        trans: "Vexed",
-        let: "kukupa",
-      },
-    },
+    Mahoromi: {},
+    "Spotted Flower": {},
+    "Seifuku no Vampiress Lord": {},
     "Prunus Girl": {},
     "Boku wa Tomodachi ga Sukunai": {},
     "Tasogare Otome x Amnesia": {},
