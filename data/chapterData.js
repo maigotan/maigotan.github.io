@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "64": {
+        date: new Date("March 10 2020 13:03:00 GMT-0800"),
+        src: "/img/releases/mahoyo/64",
+        let: "Nielle",
+        red: "kukupa, myran",
+      },
       "63": {
         date: new Date("February 9 2020 09:46:00 GMT-0800"),
         src: "/img/releases/mahoyo/63",
@@ -10,12 +16,6 @@ window.chapterData = {
       "62": {
         date: new Date("December 21 2019 16:36:00 GMT-0800"),
         src: "/img/releases/mahoyo/62",
-        let: "Nielle",
-        red: "kukupa",
-      },
-      "61": {
-        date: new Date("November 12 2019 22:07:00 GMT-0800"),
-        src: "/img/releases/mahoyo/61",
         let: "Nielle",
         red: "kukupa",
       }
