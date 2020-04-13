@@ -1,6 +1,12 @@
 window.chapterData = {
   series: {
     "Mahoutsukai no Yome": {
+      "65": {
+        date: new Date("April 12 2020 16:45:00 GMT-0800"),
+        src: "/img/releases/mahoyo/65",
+        let: "Nielle",
+        red: "kukupa, myran, cranon",
+      },
       "64": {
         date: new Date("March 10 2020 13:03:00 GMT-0800"),
         src: "/img/releases/mahoyo/64",
@@ -13,12 +19,6 @@ window.chapterData = {
         let: "Nielle",
         red: "kukupa",
       },
-      "62": {
-        date: new Date("December 21 2019 16:36:00 GMT-0800"),
-        src: "/img/releases/mahoyo/62",
-        let: "Nielle",
-        red: "kukupa",
-      }
     },
     "Kannou Sensei": {
       "21": {
