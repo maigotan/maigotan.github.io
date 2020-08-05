@@ -1,5 +1,13 @@
 window.chapterData = {
   series: {
+    "Sennetsu": {
+      "1": {
+        date: new Date("August 04 2020 18:00:00 GMT-0800"),
+        src: "/img/releases/sennetsu/1",
+        trans: "Sei",
+        let: "Kiiragi, Nielle",
+      },
+    },
     "Mahoutsukai no Yome": {
       "66": {
         date: new Date("July 04 2020 11:45:00 GMT-0800"),
