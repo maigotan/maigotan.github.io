@@ -10,6 +10,13 @@ window.chapterData = {
       },
     },
     Sennetsu: {
+      4: {
+        date: new Date("November 04 2020 22:00:00 GMT-0800"),
+        src: "/img/releases/sennetsu/4",
+        trans: "Sei",
+        let: "nielle",
+        red: "myran",
+      },
       3: {
         date: new Date("October 04 2020 19:11:00 GMT-0800"),
         src: "/img/releases/sennetsu/3",
@@ -31,14 +38,7 @@ window.chapterData = {
         let: "Kiiragi, nielle",
       },
     },
-    "Mahoutsukai no Yome": {
-      66: {
-        date: new Date("July 04 2020 11:45:00 GMT-0800"),
-        src: "/img/releases/mahoyo/66",
-        let: "Nielle",
-        red: "kukupa, cranon",
-      },
-    },
+    "Mahoutsukai no Yome": {},
     "Kannou Sensei": {
       21: {
         date: new Date("October 6 2019 13:15:00 GMT-0800"),
