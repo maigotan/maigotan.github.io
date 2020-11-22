@@ -10,6 +10,13 @@ window.chapterData = {
       },
     },
     Sennetsu: {
+      5: {
+        date: new Date("November 21 2020 22:00:00 GMT-0800"),
+        src: "/img/releases/sennetsu/5",
+        trans: "Sei",
+        let: "nielle",
+        red: "myran",
+      },
       4: {
         date: new Date("November 04 2020 22:00:00 GMT-0800"),
         src: "/img/releases/sennetsu/4",
