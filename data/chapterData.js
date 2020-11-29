@@ -1,6 +1,13 @@
 window.chapterData = {
   series: {
     "The End of the Journey": {
+      2: {
+        date: new Date("November 28 2020 16:10:00 GMT-0800"),
+        src: "/img/releases/teotj/2",
+        trans: "nex",
+        let: "myran",
+        red: "key",
+      },
       1: {
         date: new Date("October 22 2020 21:10:00 GMT-0800"),
         src: "/img/releases/teotj/1",
