@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d88f24b7.chunk.css",
-    "main.js": "/static/js/main.a0c33a5b.chunk.js",
+    "main.css": "/static/css/main.a8bbe6dc.chunk.css",
+    "main.js": "/static/js/main.eea0cd67.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.268fa134.js",
     "static/css/2.24bf1742.chunk.css": "/static/css/2.24bf1742.chunk.css",
-    "static/js/2.9df09bcc.chunk.js": "/static/js/2.9df09bcc.chunk.js",
+    "static/js/2.23fdc063.chunk.js": "/static/js/2.23fdc063.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.ba0bea5d435f6041ae59cabf231bdc88.js": "/precache-manifest.ba0bea5d435f6041ae59cabf231bdc88.js",
+    "precache-manifest.1c40d4fecd697e2e7c664b8c2e8b4f94.js": "/precache-manifest.1c40d4fecd697e2e7c664b8c2e8b4f94.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.9df09bcc.chunk.js.LICENSE.txt": "/static/js/2.9df09bcc.chunk.js.LICENSE.txt",
+    "static/js/2.23fdc063.chunk.js.LICENSE.txt": "/static/js/2.23fdc063.chunk.js.LICENSE.txt",
     "static/media/discord-icon.svg": "/static/media/discord-icon.41484d92.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.268fa134.js",
     "static/css/2.24bf1742.chunk.css",
-    "static/js/2.9df09bcc.chunk.js",
-    "static/css/main.d88f24b7.chunk.css",
-    "static/js/main.a0c33a5b.chunk.js"
+    "static/js/2.23fdc063.chunk.js",
+    "static/css/main.a8bbe6dc.chunk.css",
+    "static/js/main.eea0cd67.chunk.js"
   ]
 }
