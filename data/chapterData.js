@@ -88,6 +88,13 @@ window.chapterData = {
       },
     },
     "The End of the Journey": {
+      6: {
+        date: new Date("5 2 2021 22:33:00 GMT-0800"),
+        src: "/img/releases/teotj/6",
+        trans: "nex",
+        let: "myran",
+        red: "key",
+      },
       5: {
         date: new Date("March 23 2021 21:43:00 GMT-0800"),
         src: "/img/releases/teotj/5",
