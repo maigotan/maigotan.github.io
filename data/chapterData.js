@@ -1,6 +1,13 @@
 window.chapterData = {
   series: {
     "Coffee Moon": {
+      17: {
+        date: new Date("Oct 10 2021 22:14:00 GMT-0800"),
+        src: "/img/releases/cm/17",
+        trans: "nex",
+        let: "myran",
+        red: "myran",
+      },
       16: {
         date: new Date("Aug 15 2021 19:11:00 GMT-0800"),
         src: "/img/releases/cm/16",
@@ -103,7 +110,7 @@ window.chapterData = {
     },
     "The End of the Journey": {
       9: {
-        date: new Date("September 12 2021 14:48:00 GMT-0800"),
+        date: new Date("September 12 2021 14:48:00 GMT-0700"),
         src: "/img/releases/teotj/9",
         trans: "nex",
         let: "nielle",
