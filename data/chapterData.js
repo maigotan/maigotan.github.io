@@ -122,6 +122,7 @@ window.chapterData = {
         trans: "nex",
         let: "nielle",
         red: "myran, key",
+        pgCount: 32,
       },
       10: {
         date: new Date("November 5 2021 10:05:00 GMT-0700"),
