@@ -1,19 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.679da264.chunk.css",
-    "main.js": "/static/js/main.f49c2636.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.116d4ac5.js",
-    "static/css/2.24bf1742.chunk.css": "/static/css/2.24bf1742.chunk.css",
-    "static/js/2.80c1595d.chunk.js": "/static/js/2.80c1595d.chunk.js",
-    "index.html": "/index.html",
-    "static/js/2.80c1595d.chunk.js.LICENSE.txt": "/static/js/2.80c1595d.chunk.js.LICENSE.txt",
-    "static/media/discord-icon.b4b59a93.svg": "/static/media/discord-icon.b4b59a93.svg"
+    "main.css": "/static/css/main.38771755.css",
+    "main.js": "/static/js/main.06f88aa3.js",
+    "static/media/discord-icon.svg": "/static/media/discord-icon.b4b59a93b38222ca83d32698becba6a4.svg",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/js/runtime-main.116d4ac5.js",
-    "static/css/2.24bf1742.chunk.css",
-    "static/js/2.80c1595d.chunk.js",
-    "static/css/main.679da264.chunk.css",
-    "static/js/main.f49c2636.chunk.js"
+    "static/css/main.38771755.css",
+    "static/js/main.06f88aa3.js"
   ]
 }
