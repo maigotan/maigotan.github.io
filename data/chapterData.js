@@ -123,6 +123,15 @@ window.chapterData = {
       },
     },
     "The End of the Journey": {
+      13: {
+        date: new Date("April 12 2022 21:00:00 GMT-0800"),
+        src: "/img/releases/teotj/13",
+        trans: "nex",
+        edit: "myran",
+        let: "nielle",
+        red: "myran, key",
+        pgCount: 29,
+      },
       12: {
         date: new Date("April 8 2022 16:03:00 GMT-0800"),
         src: "/img/releases/teotj/12",
