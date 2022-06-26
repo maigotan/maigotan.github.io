@@ -2,7 +2,7 @@ window.chapterData = {
   series: {
     "The End of the Journey": {
       15: {
-        date: new Date("June 26 2022 10:20:00 GMT-0800"),
+        date: new Date("June 26 2022 10:20:00 GMT-0700"),
         src: "/img/releases/teotj/15",
         trans: "nex",
         edit: "myran",
