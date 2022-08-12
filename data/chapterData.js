@@ -1,5 +1,15 @@
 window.chapterData = {
   series: {
+    "Karakida-ke no Kosho Gurashi": {
+      1: {
+        date: new Date("Aug 11 2022 17:20:00 GMT-0700"),
+        src: "/img/releases/kara/1",
+        trans: "haremless",
+        let: "key, nielle",
+        red: "key, myran",
+        pgCount: 57,
+      },
+    },
     "The End of the Journey": {
       15: {
         date: new Date("June 26 2022 10:20:00 GMT-0700"),
@@ -27,92 +37,6 @@ window.chapterData = {
         let: "nielle",
         red: "myran, key",
         pgCount: 29,
-      },
-      12: {
-        date: new Date("April 8 2022 16:03:00 GMT-0800"),
-        src: "/img/releases/teotj/12",
-        trans: "nex",
-        let: "nielle",
-        red: "myran, key",
-        pgCount: 32,
-      },
-      11: {
-        date: new Date("December 3 2021 9:23:00 GMT-0800"),
-        src: "/img/releases/teotj/11",
-        trans: "nex",
-        let: "nielle",
-        red: "myran, key",
-        pgCount: 32,
-      },
-      10: {
-        date: new Date("November 5 2021 10:05:00 GMT-0700"),
-        src: "/img/releases/teotj/10",
-        trans: "nex",
-        let: "nielle",
-        red: "myran, key",
-      },
-      9: {
-        date: new Date("September 12 2021 14:48:00 GMT-0700"),
-        src: "/img/releases/teotj/9",
-        trans: "nex",
-        let: "nielle",
-        red: "myran",
-      },
-      8: {
-        date: new Date("August 20 2021 12:05:00 GMT-0800"),
-        src: "/img/releases/teotj/8",
-        trans: "nex",
-        let: "nielle",
-        red: "key, myran",
-      },
-      7: {
-        date: new Date("June 9 2021 11:08:00 GMT-0800"),
-        src: "/img/releases/teotj/7",
-        trans: "nex",
-        let: "nielle",
-        red: "key",
-      },
-      6: {
-        date: new Date("May 2 2021 22:33:00 GMT-0800"),
-        src: "/img/releases/teotj/6",
-        trans: "nex",
-        let: "myran",
-        red: "key",
-      },
-      5: {
-        date: new Date("March 23 2021 21:43:00 GMT-0800"),
-        src: "/img/releases/teotj/5",
-        trans: "nex",
-        let: "myran",
-        red: "key",
-      },
-      4: {
-        date: new Date("February 21 2021 18:30:00 GMT-0800"),
-        src: "/img/releases/teotj/4",
-        trans: "nex",
-        let: "myran",
-        red: "key",
-      },
-      3: {
-        date: new Date("January 10 2021 12:46:00 GMT-0800"),
-        src: "/img/releases/teotj/3",
-        trans: "nex",
-        let: "myran",
-        red: "key",
-      },
-      2: {
-        date: new Date("November 28 2020 16:10:00 GMT-0800"),
-        src: "/img/releases/teotj/2",
-        trans: "nex",
-        let: "myran",
-        red: "key",
-      },
-      1: {
-        date: new Date("October 22 2020 21:10:00 GMT-0800"),
-        src: "/img/releases/teotj/1",
-        trans: "nex",
-        let: "myran",
-        red: "key",
       },
     },
     "Kannou Sensei": {
