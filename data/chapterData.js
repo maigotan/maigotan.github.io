@@ -7,10 +7,19 @@ window.chapterData = {
         trans: "haremless",
         let: "key, nielle",
         red: "key, myran",
-        pgCount: 57,
+        pgCount: 58,
       },
     },
     "The End of the Journey": {
+      16: {
+        date: new Date("Aug 12 2022 13:56:00 GMT-0700"),
+        src: "/img/releases/teotj/16",
+        trans: "nex",
+        edit: "myran",
+        let: "nielle",
+        red: "myran, kii",
+        pgCount: 34,
+      },
       15: {
         date: new Date("June 26 2022 10:20:00 GMT-0700"),
         src: "/img/releases/teotj/15",
@@ -28,15 +37,6 @@ window.chapterData = {
         let: "nielle",
         red: "myran, key",
         pgCount: 30,
-      },
-      13: {
-        date: new Date("April 12 2022 21:00:00 GMT-0800"),
-        src: "/img/releases/teotj/13",
-        trans: "nex",
-        edit: "myran",
-        let: "nielle",
-        red: "myran, key",
-        pgCount: 29,
       },
     },
     "Kannou Sensei": {
