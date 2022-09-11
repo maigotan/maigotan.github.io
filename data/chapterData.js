@@ -1,12 +1,20 @@
 window.chapterData = {
   series: {
     "Karakida-ke no Kosho Gurashi": {
+      2: {
+        date: new Date("Sep 10 2022 20:57:00 GMT-0700"),
+        src: "/img/releases/kara/2",
+        trans: "haremless",
+        let: "kii, nielle",
+        red: "kii, myran",
+        pgCount: 30,
+      },
       1: {
         date: new Date("Aug 11 2022 17:20:00 GMT-0700"),
         src: "/img/releases/kara/1",
         trans: "haremless",
-        let: "key, nielle",
-        red: "key, myran",
+        let: "kii, nielle",
+        red: "kii, myran",
         pgCount: 58,
       },
     },
