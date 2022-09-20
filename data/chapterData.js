@@ -18,33 +18,15 @@ window.chapterData = {
         pgCount: 58,
       },
     },
-    "The End of the Journey": {
-      17: {
-        date: new Date("Aug 30 2022 16:20:00 GMT-0700"),
-        src: "/img/releases/teotj/17",
-        trans: "nex",
-        edit: "myran",
-        let: "nielle",
-        red: "myran",
-        pgCount: 32,
-      },
-      16: {
-        date: new Date("Aug 12 2022 13:56:00 GMT-0700"),
-        src: "/img/releases/teotj/16",
-        trans: "nex",
-        edit: "myran",
-        let: "nielle",
-        red: "myran, kii",
-        pgCount: 34,
-      },
-      15: {
-        date: new Date("June 26 2022 10:20:00 GMT-0700"),
-        src: "/img/releases/teotj/15",
-        trans: "nex",
-        edit: "myran",
-        let: "nielle",
-        red: "myran, key",
-        pgCount: 33,
+    Sennetsu: {
+      8: {
+        date: new Date("Sep 20 2022 10:41:00 GMT-0700"),
+        src: "/img/releases/sen/8",
+        trans: "sei",
+        edit: "cruelnoise",
+        let: "kii",
+        red: "kii",
+        pgCount: 25,
       },
     },
     "Kannou Sensei": {
