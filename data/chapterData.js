@@ -1,6 +1,14 @@
 window.chapterData = {
   series: {
     "Karakida-ke no Kosho Gurashi": {
+      3: {
+        date: new Date("Oct 13 2022 17:57:00 GMT-0700"),
+        src: "/img/releases/kara/3",
+        trans: "haremless",
+        edit: 'myran, nielle',
+        let: "kii",
+        pgCount: 31,
+      },
       2: {
         date: new Date("Sep 10 2022 20:57:00 GMT-0700"),
         src: "/img/releases/kara/2",
