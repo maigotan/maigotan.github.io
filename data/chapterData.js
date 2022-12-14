@@ -1,5 +1,12 @@
 window.chapterData = {
   series: {
+    "Muse no Shinzai": {
+      1: {
+        date: new Date("Dec 13 2022 17:27:00 GMT-0800"),
+        src: "/img/releases/muse/1",
+        pgCount: 57,
+      },
+    },
     "Karakida-ke no Kosho Gurashi": {
       4: {
         date: new Date("Dec 7 2022 19:56:00 GMT-0800"),
@@ -10,7 +17,7 @@ window.chapterData = {
         date: new Date("Oct 13 2022 17:57:00 GMT-0700"),
         src: "/img/releases/kara/3",
         trans: "haremless",
-        edit: 'myran, nielle',
+        edit: "myran, nielle",
         let: "kii",
         pgCount: 31,
       },
