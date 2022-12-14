@@ -1,6 +1,6 @@
 window.chapterData = {
   series: {
-    "Muse no Shinzai": {
+    "Muse no Shinzui": {
       1: {
         date: new Date("Dec 13 2022 17:27:00 GMT-0800"),
         src: "/img/releases/muse/1",
