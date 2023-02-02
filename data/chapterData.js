@@ -1,5 +1,12 @@
 window.chapterData = {
   series: {
+    "Majo no Eden": {
+      1: {
+        date: new Date("Feb 1 2023 18:35:00 GMT-0800"),
+        src: "/img/releases/eden/1",
+        pgCount: 61,
+      },
+    },
     "Muse no Shinzui": {
       1: {
         date: new Date("Dec 13 2022 17:27:00 GMT-0800"),
