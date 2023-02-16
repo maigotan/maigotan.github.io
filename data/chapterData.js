@@ -15,6 +15,11 @@ window.chapterData = {
       },
     },
     "Karakida-ke no Kosho Gurashi": {
+      5: {
+        date: new Date("Feb 16 2023 12:13:00 GMT-0800"),
+        src: "/img/releases/kara/5",
+        pgCount: 22,
+      },
       4: {
         date: new Date("Dec 7 2022 19:56:00 GMT-0800"),
         src: "/img/releases/kara/4",
