@@ -1,35 +1,11 @@
 window.chapterData = {
   series: {
-    "Majo no Eden": {
-      4: {
-        date: new Date("May 15 2023 14:49:00 GMT-0800"),
-        src: "/img/releases/eden/4",
-        pgCount: 38,
-      },
-      3: {
-        date: new Date("Apr 11 2023 18:18:00 GMT-0800"),
-        src: "/img/releases/eden/3",
-        pgCount: 38,
-      },
-      2: {
-        date: new Date("Mar 6 2023 11:47:00 GMT-0800"),
-        src: "/img/releases/eden/2",
-        pgCount: 36,
-      },
-      1: {
-        date: new Date("Feb 1 2023 18:35:00 GMT-0800"),
-        src: "/img/releases/eden/1",
-        pgCount: 61,
-      },
-    },
-    "Muse no Shinzui": {
-      1: {
-        date: new Date("Dec 13 2022 17:27:00 GMT-0800"),
-        src: "/img/releases/muse/1",
-        pgCount: 57,
-      },
-    },
     "Karakida-ke no Kosho Gurashi": {
+      7: {
+        date: new Date("Sep 9 2023 16:30:00 GMT-0800"),
+        src: "/img/releases/kara/7",
+        pgCount: 28,
+      },
       6: {
         date: new Date("Mar 24 2023 19:24:00 GMT-0800"),
         src: "/img/releases/kara/6",
